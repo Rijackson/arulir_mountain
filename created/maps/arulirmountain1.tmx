@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -197,7 +201,7 @@
    eJy1VjFOw0AQNGeJSHSJpUTwDZ5CkS4NT+AViCdY8IM8gqRBookSCaVOBBU1FUj4RFberGfv9i5mmti58czdeG/PRZGPRXl8f+FOEGNYjuOc71FRPB/8rxrfZdnlcJ3by7ifxffOtdyBsl6Lzmbc8tYGPtdeneMxi45/PsUvRTvmK1FWp2la8SjeUwV8a9flhZDCf1B4Nft/A/KpA/qSj7ieQzxt3FKrHPeuXQ/X5DpUYyHPlHpCfQXtWamJ5pQL3z8se1ZmugYZp2ZumTviIN+Xod1Xq2/53pHPbnR8/3Pw/Wqut8313rB3NH/KmPu+u/j6CTnevG7l+v4T5GnZq9eBM06u+SbAJV/unwLZm1DeWn4pZ7H09M98svpG/edVqX9rxsgT5fOUcJZwDZrzrOpyEJ8QO0s03xB4HrS/3kB+oXNqIsbQPkXzstTcvKfvTe7r8aHUiFxnLD/ZQ6Znf7+8BnnGXp+Paf3PUqOxbxNLxlIj5/zke9/y7jXvPp+J9f+QTh/ZWyH3fA6svYDwC9mHjJw=
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30">
+ <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
    eJztk8sNACEIRK1i+2/BDvdKDMoMPy+ScDHKGxic3xjz5dWUgdy16rBM+W5XQzvX3jM8NpA6iIaTdpTPztzSquk6ec9yUV3sznn2FJlH5B+xOxhhSd8y5uL5P11cT52or16fsvYpw6Oojsq9yODJ8+4eK+d7g6lxK1krs9rLql6j0dHrqreb+fKllT+tdy8I
   </data>
@@ -207,7 +211,7 @@
    eJxjYBgFIxlsFBtoF4yCwQRA6WEg0gQ17R3q7h8Fo2AUjIJRMApGwSigJwAAmgQGOQ==
   </data>
  </layer>
- <objectgroup name="Mapevents" width="30" height="30">
+ <objectgroup name="Mapevents">
   <object name="west" type="mapchange" x="0" y="736" width="32" height="32">
    <properties>
     <property name="map" value="mountainlake5"/>
@@ -242,51 +246,82 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" width="30" height="30" visible="0">
+ <objectgroup name="Spawn" visible="0">
   <object name="arulir_1" type="spawn" x="64" y="736" width="192" height="32">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
-  <object name="arulir_1" type="spawn" x="320" y="736" width="96" height="32"/>
+  <object name="arulir_1" type="spawn" x="320" y="736" width="96" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
   <object name="aruli_1" type="spawn" x="416" y="576" width="128" height="192">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="aruli_1"/>
    </properties>
   </object>
   <object name="arulir_1" type="spawn" x="512" y="480" width="224" height="160">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
-  <object name="arulir_1" type="spawn" x="576" y="448" width="32" height="32"/>
-  <object name="arulir_1" type="spawn" x="576" y="288" width="32" height="96"/>
+  <object name="arulir_1" type="spawn" x="576" y="448" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object name="arulir_1" type="spawn" x="576" y="288" width="32" height="96">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
   <object name="arulir_1" type="spawn" x="768" y="96" width="128" height="192">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
   <object name="arulir_1" type="spawn" x="448" y="160" width="288" height="160">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
-  <object name="arulir_1" type="spawn" x="256" y="288" width="32" height="32"/>
-  <object name="gornaud_4" type="spawn" x="64" y="384" width="224" height="128"/>
+  <object name="arulir_1" type="spawn" x="256" y="288" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object name="gornaud_4" type="spawn" x="64" y="384" width="224" height="128">
+   <properties>
+    <property name="spawngroup" value="gornaud_4"/>
+   </properties>
+  </object>
   <object name="arulir_1" type="spawn" x="128" y="352" width="160" height="96">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
   <object name="arulir_1" type="spawn" x="128" y="96" width="320" height="128">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
-  <object name="arulir_2" type="spawn" x="544" y="160" width="96" height="64"/>
+  <object name="arulir_2" type="spawn" x="544" y="160" width="96" height="64">
+   <properties>
+    <property name="spawngroup" value="arulir_2"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup name="Keys" width="30" height="30"/>
- <objectgroup name="Replace" width="30" height="30">
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace">
   <object name="arulirmountain_trap03:10" type="replace" x="256" y="128" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_replace"/>

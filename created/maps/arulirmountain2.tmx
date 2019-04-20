@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="15" height="15" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="outdoors" value="1"/>
+ </properties>
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -207,7 +211,7 @@
    eJxjYBgF9AQbxQbaBZSBoe7+wQgAqU4Bjw==
   </data>
  </layer>
- <objectgroup name="Mapevents" width="15" height="15">
+ <objectgroup name="Mapevents">
   <object name="west" type="mapchange" x="0" y="96" width="32" height="96">
    <properties>
     <property name="map" value="arulirmountain1"/>
@@ -230,17 +234,26 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" width="15" height="15" visible="0">
-  <object name="gornaud_4" type="spawn" x="224" y="32" width="192" height="128"/>
-  <object name="arulir_1" type="spawn" x="96" y="192" width="32" height="32"/>
+ <objectgroup name="Spawn" visible="0">
+  <object name="gornaud_4" type="spawn" x="224" y="32" width="192" height="128">
+   <properties>
+    <property name="spawngroup" value="gornaud_4"/>
+   </properties>
+  </object>
+  <object name="arulir_1" type="spawn" x="96" y="192" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
   <object name="arulir_1" type="spawn" x="160" y="128" width="192" height="256">
    <properties>
     <property name="quantity" value="4"/>
+    <property name="spawngroup" value="arulir_1"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" width="15" height="15"/>
- <objectgroup name="Replace" width="15" height="15">
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace">
   <object name="arulirmountain_trap01:10" type="replace" x="160" y="288" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_replace"/>
