@@ -1,0 +1,219 @@
+[
+  {
+    "id": "arulir_3",
+    "iconID": "monsters_arulirs:0",
+    "name": "Cave Arulir",
+    "spawnGroup": "arulir_2",
+    "monsterClass": "giant",
+    "maxHP": 365,
+    "maxAP": 5,
+    "moveCost": 5,
+    "attackCost": 5,
+    "attackChance": 80,
+    "criticalSkill": 44,
+    "criticalMultiplier": 3,
+    "blockChance": 28,
+    "damageResistance": 8,
+    "droplistID": "arulir",
+    "attackDamage": {
+      "min": 3,
+      "max": 22
+    },
+    "hitEffect": {
+      "conditionsTarget": [
+        {
+          "condition": "stunned",
+          "magnitude": 1,
+          "duration": 4,
+          "chance": 23
+        }
+      ]
+    }
+  },
+  {
+    "id": "arulir_4",
+    "iconID": "monsters_arulirs:1",
+    "name": "Giant Cave Arulir",
+    "spawnGroup": "arulir_2",
+    "monsterClass": "giant",
+    "maxHP": 380,
+    "maxAP": 5,
+    "moveCost": 5,
+    "attackCost": 5,
+    "attackChance": 80,
+    "criticalSkill": 44,
+    "criticalMultiplier": 3,
+    "blockChance": 28,
+    "damageResistance": 10,
+    "droplistID": "arulir",
+    "attackDamage": {
+      "min": 3,
+      "max": 22
+    },
+    "hitEffect": {
+      "conditionsTarget": [
+        {
+          "condition": "stunned",
+          "magnitude": 1,
+          "duration": 4,
+          "chance": 26
+        }
+      ]
+    }
+  },
+  {
+    "id": "arulir_5",
+    "iconID": "monsters_arulirs:2",
+    "name": "Cryptic Arulir",
+    "spawnGroup": "arulir_3",
+    "monsterClass": "giant",
+    "maxHP": 403,
+    "maxAP": 5,
+    "moveCost": 5,
+    "attackCost": 5,
+    "attackChance": 110,
+    "criticalSkill": 50,
+    "criticalMultiplier": 3,
+    "blockChance": 28,
+    "damageResistance": 12,
+    "droplistID": "arulir",
+    "attackDamage": {
+      "min": 4,
+      "max": 25
+    },
+    "hitEffect": {
+      "conditionsTarget": [
+        {
+          "condition": "stunned",
+          "magnitude": 1,
+          "duration": 4,
+          "chance": 30
+        }
+      ]
+    }
+  },
+  {
+    "id": "gornaud_4",
+    "iconID": "monsters_rltiles2:28",
+    "name": "Azurite Gornaud",
+    "spawnGroup": "gornaud_4",
+    "monsterClass": "giant",
+    "maxHP": 390,
+    "maxAP": 5,
+    "moveCost": 5,
+    "attackCost": 5,
+    "attackChance": 120,
+    "blockChance": 45,
+    "damageResistance": 9,
+    "droplistID": "arulir_gornaud",
+    "attackDamage": {
+      "min": 7,
+      "max": 23
+    },
+    "hitEffect": {
+      "conditionsTarget": [
+        {
+          "condition": "dazed",
+          "magnitude": 1,
+          "duration": 3,
+          "chance": 25
+        }
+      ]
+    }
+  },
+  {
+    "id": "gornaud_5",
+    "iconID": "monsters_rltiles2:30",
+    "name": "Garnet Gornaud",
+    "spawnGroup": "gornaud_4",
+    "monsterClass": "giant",
+    "maxHP": 385,
+    "maxAP": 5,
+    "moveCost": 5,
+    "attackCost": 5,
+    "attackChance": 120,
+    "blockChance": 45,
+    "damageResistance": 9,
+    "droplistID": "arulir_gornaud",
+    "attackDamage": {
+      "min": 7,
+      "max": 23
+    },
+    "hitEffect": {
+      "conditionsTarget": [
+        {
+          "condition": "dazed",
+          "magnitude": 1,
+          "duration": 3,
+          "chance": 25
+        }
+      ]
+    }
+  },
+  {
+    "id": "gornaud_6",
+    "iconID": "monsters_rltiles2:31",
+    "name": "Nephrite Gornaud",
+    "spawnGroup": "gornaud_4",
+    "monsterClass": "giant",
+    "maxHP": 395,
+    "maxAP": 5,
+    "moveCost": 5,
+    "attackCost": 5,
+    "attackChance": 120,
+    "blockChance": 45,
+    "damageResistance": 9,
+    "droplistID": "arulir_gornaud",
+    "attackDamage": {
+      "min": 7,
+      "max": 23
+    },
+    "hitEffect": {
+      "conditionsTarget": [
+        {
+          "condition": "dazed",
+          "magnitude": 1,
+          "duration": 3,
+          "chance": 25
+        }
+      ]
+    }
+  },
+  {
+    "id": "arulir_leader",
+    "name": "Arulir Pack Leader",
+    "iconID": "monsters_arulirs:3",
+    "maxHP": 1000,
+    "monsterClass": "giant",
+    "attackDamage": {
+      "min": 10,
+      "max": 20
+    },
+    "hitEffect": {
+      "conditionsSource": [
+        {
+          "magnitude": 1,
+          "duration": 1,
+          "chance": 50,
+          "condition": "rage_minor"
+        }
+      ],
+      "conditionsTarget": [
+        {
+          "magnitude": 1,
+          "duration": 4,
+          "chance": 35,
+          "condition": "stunned"
+        }
+      ]
+    },
+    "spawnGroup": "arulir_leader",
+    "droplistID": "arulir_leader",
+    "attackCost": 5,
+    "attackChance": 125,
+    "criticalSkill": 55,
+    "criticalMultiplier": 3,
+    "blockChance": 30,
+    "damageResistance": 14
+  }
+]
