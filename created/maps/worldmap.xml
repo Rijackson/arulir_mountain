@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<worldmap>
+  <segment id="arulircave" x="2" y="29">
+    <map id="arulircave1" x="2" y="45"/>
+    <map id="arulircave2" x="15" y="29"/>
+    <map id="arulircave3" x="28" y="45"/>
+    <map id="arulircave4" x="32" y="61"/>
+    <map id="arulircave5" x="29" y="72"/>
+    <map id="arulircave6" x="34" y="83"/>
+  </segment>
+</worldmap>
