@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="6">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextobjectid="6">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -177,27 +177,27 @@
  <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
- <layer id="1" name="Ground" width="10" height="10">
+ <layer name="Ground" width="10" height="10">
   <data encoding="base64" compression="zlib">
    eJx7w8zA8AaI/yHhNzjwWyAWYEHg13jUfULCxKrDZe9/NDXI7niNJCbIAlHzF+oPmD5eNHUws/ihZsD0IbsV3W3oGNlP+NSh+4WQGgAJg1YT
   </data>
  </layer>
- <layer id="2" name="Objects" width="10" height="10">
+ <layer name="Objects" width="10" height="10">
   <data encoding="base64" compression="zlib">
    eJxjYCAPyDHhl1diQWB84JMoA4OQMAPDTWYI/wQzBGMDIDXBUHt5gTSTGKq8JFBMDCrvDKX/APUIoalTxuKmS0JAt6KpewMUewTEilB/gPT9B/IfCqGqOwzUxwm1TwwpXG5i8cctZkyMDAAPtxL8
   </data>
  </layer>
- <layer id="3" name="Above" width="10" height="10">
+ <layer name="Above" width="10" height="10">
   <data encoding="base64" compression="zlib">
    eJxjYCANHBYjXh2TMHXNI6TvMlDsEhHqkMWcmSA0uj5kdbxANcFMuN12mxm3HKkAAJheCx4=
   </data>
  </layer>
- <layer id="4" name="Walkable" width="10" height="10" visible="0">
+ <layer name="Walkable" width="10" height="10" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEAMQiQq24gxGAAmzp0QE54AABNk0IU
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="upstairs" type="mapchange" x="224" y="128" width="32" height="32">
    <properties>
     <property name="map" value="arulircave3"/>
@@ -211,7 +211,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Spawn" visible="0">
+ <objectgroup name="Spawn" visible="0">
   <object id="3" name="arulir_3" type="spawn" x="192" y="224" width="64" height="64">
    <properties>
     <property name="spawngroup" value="arulir_3"/>
@@ -229,6 +229,6 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="7" name="Keys"/>
- <objectgroup id="8" name="Replace"/>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
 </map>
