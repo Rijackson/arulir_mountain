@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
 <map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="32" tileheight="32">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
@@ -192,13 +193,13 @@
    eJxjYCANHBYjXh2TMKrYEnHC5qUA1aQCcak4fnUwfhmSustAsUtEqEM2y5kJQl/Co44XqCaYCdVckLplULW3mRlwAmx+xgamQNUBAJYVEbM=
   </data>
  </layer>
- <layer name="Walkable" width="10" height="10" visible="0">
+ <layer name="Walkable" width="10" height="10">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEAMQjQWh01xWAAmzp0QE54AADySULb
   </data>
  </layer>
- <objectgroup name="Mapevents" width="10" height="10">
-  <object name="upstairs" type="mapchange" x="224" y="160" width="32" height="32">
+ <objectgroup name="Mapevents">
+  <object name="upstairs" type="mapchange" x="224" y="128" width="32" height="32">
    <properties>
     <property name="map" value="arulircave3"/>
     <property name="place" value="downstairs"/>
@@ -211,15 +212,24 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn" width="10" height="10">
-  <object name="arulir_3" type="spawn" x="192" y="224" width="64" height="64"/>
-  <object name="arulir_3" type="spawn" x="128" y="256" width="32" height="32"/>
+ <objectgroup name="Spawn">
+  <object name="arulir_3" type="spawn" x="192" y="224" width="64" height="64">
+   <properties>
+    <property name="spawngroup" value="arulir_3"/>
+   </properties>
+  </object>
+  <object name="arulir_3" type="spawn" x="128" y="256" width="32" height="32">
+   <properties>
+    <property name="spawngroup" value="arulir_3"/>
+   </properties>
+  </object>
   <object name="arulir_3" type="spawn" x="64" y="160" width="64" height="128">
    <properties>
     <property name="quantity" value="2"/>
+    <property name="spawngroup" value="arulir_3"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" width="10" height="10"/>
- <objectgroup name="Replace" width="10" height="10"/>
+ <objectgroup name="Keys"/>
+ <objectgroup name="Replace"/>
 </map>
