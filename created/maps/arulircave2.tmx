@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" infinite="0" nextobjectid="9">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" infinite="0" nextobjectid="10">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -205,11 +205,6 @@
    eJzbKMbAsHEQYBjAxSdGLyl6kPWSah+6XnL9S0k4keNfZPWk6scFyPUzuWaQkz4GS9zh0gsAoFmRXg==
   </data>
  </layer>
- <layer name="Walkable_replace" width="15" height="15" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgF1AAbxYae3lEwOAAArX4CVg==
-  </data>
- </layer>
  <objectgroup name="Mapevents">
   <object id="1" name="south" type="mapchange" x="320" y="448" width="32" height="32">
    <properties>
@@ -234,12 +229,21 @@
   </object>
   <object id="7" name="arulir_2" type="spawn" x="256" y="288" width="96" height="96"/>
  </objectgroup>
- <objectgroup name="Keys"/>
+ <objectgroup name="Keys">
+  <object id="9" name="arulircave_trap:06" type="key" x="224" y="224" width="32" height="32">
+   <properties>
+    <property name="phrase" value="do_nothing_but_leave"/>
+    <property name="requireId" value="arulircave_trap"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="06"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Replace">
-  <object id="8" name="arulircave_trap06:10" type="replace" x="224" y="160" width="32" height="96">
+  <object id="8" name="arulircave_trap:06" type="replace" x="224" y="160" width="32" height="96">
    <properties>
     <property name="Above" value="Above_replace"/>
-    <property name="Walkable" value="Walkable_replace"/>
    </properties>
   </object>
  </objectgroup>

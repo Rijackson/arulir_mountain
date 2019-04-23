@@ -219,8 +219,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "arulircave_trap01",
-        "value": 10
+        "rewardID": "arulircave_trap",
+        "value": 01
       },
       {
         "rewardType": "actorCondition",
@@ -256,8 +256,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "arulircave_trap02",
-        "value": 10
+        "rewardID": "arulircave_trap",
+        "value": 02
       },
       {
         "rewardType": "actorCondition",
@@ -293,8 +293,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "arulircave_trap03",
-        "value": 10
+        "rewardID": "arulircave_trap",
+        "value": 03
       },
       {
         "rewardType": "actorCondition",
@@ -330,8 +330,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "arulircave_trap04",
-        "value": 10
+        "rewardID": "arulircave_trap",
+        "value": 04
       },
       {
         "rewardType": "actorCondition",
@@ -367,8 +367,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "arulircave_trap05",
-        "value": 10
+        "rewardID": "arulircave_trap",
+        "value": 05
       },
       {
         "rewardType": "actorCondition",
@@ -404,8 +404,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "arulircave_trap06",
-        "value": 10
+        "rewardID": "arulircave_trap",
+        "value": 06
       },
       {
         "rewardType": "actorCondition",
@@ -441,8 +441,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "arulircave_trap07",
-        "value": 10
+        "rewardID": "arulircave_trap",
+        "value": 07
       },
       {
         "rewardType": "actorCondition",
@@ -478,8 +478,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "arulircave_trap08",
-        "value": 10
+        "rewardID": "arulircave_trap",
+        "value": 08
       },
       {
         "rewardType": "actorCondition",
@@ -515,8 +515,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "arulircave_trap09",
-        "value": 10
+        "rewardID": "arulircave_trap",
+        "value": 09
       },
       {
         "rewardType": "actorCondition",
@@ -612,7 +612,7 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "arulircave_trap10",
+        "rewardID": "arulircave_trap",
         "value": 10
       }
     ],
@@ -745,6 +745,14 @@
         "value": 1
       }
     ],
+    "replies": [
+      {
+        "nextPhraseID": "X"
+      }
+    ]
+  },
+  {
+    "id": "do_nothing_but_leave",
     "replies": [
       {
         "nextPhraseID": "X"

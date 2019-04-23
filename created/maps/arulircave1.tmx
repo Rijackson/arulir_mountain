@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="25" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="28">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="25" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="33">
  <tileset firstgid="1" name="map_bed_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_bed_1.png" width="512" height="256"/>
  </tileset>
@@ -215,11 +215,6 @@
    eJzdk8ENwCAMA5mi+6/AhlW/URxCcvBopD6g4IsNzGeMeej76pQ2oZ8tSjv6T3nY7YNg2LOI1kR8Og/VY4exU0T/keZqXPGxymzXW2aPYlQzzDK6d0ExrC6pb7WorDwdlRmRv/JUZXhFnUNUak33bno6XYbKRs3ROa38dRhUThkdwkf0LjIeK4yM1z8wqvrE/luMFwR2p7c=
   </data>
  </layer>
- <layer name="Walkable_replace" width="25" height="30" visible="0">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFwxlsFBtoF0DcQGt3DBc7BtL+gfbfKBgFo2AUkAJGy6tRMBIBABS4CVU=
-  </data>
- </layer>
  <objectgroup name="Mapevents">
   <object id="1" name="exit" type="mapchange" x="256" y="928" width="32" height="32">
    <properties>
@@ -301,38 +296,79 @@
   </object>
   <object id="22" name="arulir_2" type="spawn" x="640" y="64" width="96" height="128"/>
  </objectgroup>
- <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Keys" visible="0">
+  <object id="28" name="arulircave_trap:01" type="key" x="320" y="704" width="32" height="32">
+   <properties>
+    <property name="phrase" value="do_nothing_but_leave"/>
+    <property name="requireId" value="arulircave_trap"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="01"/>
+   </properties>
+  </object>
+  <object id="29" name="arulircave_trap:02" type="key" x="320" y="288" width="32" height="32">
+   <properties>
+    <property name="phrase" value="do_nothing_but_leave"/>
+    <property name="requireId" value="arulircave_trap"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="02"/>
+   </properties>
+  </object>
+  <object id="30" name="arulircave_trap:03" type="key" x="288" y="320" width="32" height="32">
+   <properties>
+    <property name="phrase" value="do_nothing_but_leave"/>
+    <property name="requireId" value="arulircave_trap"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="03"/>
+   </properties>
+  </object>
+  <object id="31" name="arulircave_trap:04" type="key" x="640" y="128" width="32" height="32">
+   <properties>
+    <property name="phrase" value="do_nothing_but_leave"/>
+    <property name="requireId" value="arulircave_trap"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="04"/>
+   </properties>
+  </object>
+  <object id="32" name="arulircave_trap:05" type="key" x="128" y="256" width="32" height="32">
+   <properties>
+    <property name="phrase" value="do_nothing_but_leave"/>
+    <property name="requireId" value="arulircave_trap"/>
+    <property name="requireNegation" value="true"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="05"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Replace" visible="0">
-  <object id="23" name="arulircave_trap01:10" type="replace" x="320" y="704" width="32" height="32">
+  <object id="23" name="arulircave_trap:01" type="replace" x="320" y="704" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_replace"/>
-    <property name="Walkable" value="Walkable_replace"/>
    </properties>
   </object>
-  <object id="24" name="arulircave_trap02:10" type="replace" x="320" y="288" width="64" height="32">
+  <object id="24" name="arulircave_trap:02" type="replace" x="320" y="288" width="64" height="32">
    <properties>
     <property name="Above" value="Above_replace"/>
     <property name="Objects" value="Objects_replace"/>
-    <property name="Walkable" value="Walkable_replace"/>
    </properties>
   </object>
-  <object id="25" name="arulircave_trap03:10" type="replace" x="288" y="320" width="64" height="32">
+  <object id="25" name="arulircave_trap:03" type="replace" x="288" y="320" width="64" height="32">
    <properties>
     <property name="Above" value="Above_replace"/>
     <property name="Objects" value="Objects_replace"/>
-    <property name="Walkable" value="Walkable_replace"/>
    </properties>
   </object>
-  <object id="26" name="arulircave_trap04:10" type="replace" x="640" y="128" width="32" height="32">
+  <object id="26" name="arulircave_trap:04" type="replace" x="640" y="128" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_replace"/>
-    <property name="Walkable" value="Walkable_replace"/>
    </properties>
   </object>
-  <object id="27" name="arulircave_trap05:10" type="replace" x="96" y="192" width="64" height="96">
+  <object id="27" name="arulircave_trap:05" type="replace" x="96" y="192" width="64" height="96">
    <properties>
     <property name="Above" value="Above_replace"/>
-    <property name="Walkable" value="Walkable_replace"/>
    </properties>
   </object>
  </objectgroup>
