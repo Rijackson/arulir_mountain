@@ -190,7 +190,7 @@
    eJxjYCAOHGSG0J6yDAxeQCwlC+G/EcKufoo4A8M0cexynrII9k2gubeg+DbUjiVAfcvEEebD7IYBmHpkEMyEaQ6625EBK1A9JxOCD2KzMGGqg+k/BDXjIdS/rkC1blD1klBamQVTLywcJgkzMEwGYjGg2lAgDgPiRCaIeSB9H4VQ3Q3yNywcFgH1LRZG2A+zD+TmX6IIcZDfU4HqTcURdoMAur+cofwcVkg4gADInE9AbAbVU4Yl7q4LIvz5ECnerwHFQ4DqXaF6QO5WYsGOxZkQGGROKJI+EKhkhugvBeISIF6KlBYUoWbAwhlbGqtixsTVWOIfFragcK6EylvJomJrWdxmwjAIWALVHRJDxZqymOZhw1pADACKk0ZB
   </data>
  </layer>
- <layer name="Objects_replace" width="15" height="15" visible="0">
+ <layer name="Objects_replace" width="15" height="15">
   <data encoding="base64" compression="zlib">
    eJxjYBgFQxFwM5GvV5oCvaOA+gAASCwAKw==
   </data>
@@ -203,6 +203,11 @@
  <layer name="Walkable" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
    eJzbKMbAsHEAMQzA2KTqQwbk6iNWPza1pNiNzY/oZpHrdlL1EhInJd7IiW966x3MGACNIIpf
+  </data>
+ </layer>
+ <layer name="Walkable_replace" width="15" height="15" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQxFsFBsYvaOA+gAAn/oBjw==
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -267,6 +272,7 @@
   <object id="8" name="arulircave_trap:07" type="replace" x="160" y="224" width="32" height="64">
    <properties>
     <property name="Objects" value="Objects_replace"/>
+    <property name="Walkable" value="Walkable_replace"/>
    </properties>
   </object>
  </objectgroup>

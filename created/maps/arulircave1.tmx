@@ -180,6 +180,9 @@
  <tileset firstgid="7449" name="map_transition_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_transition_5.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_transition_5" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_transition_5.png" width="512" height="256"/>
+ </tileset>
  <layer name="Ground" width="25" height="30">
   <data encoding="base64" compression="zlib">
    eJy9ltENwjAMRBHw0y9gBdZhNMoItCMUxAT8MUJ3oBmBlkTEkjk5jlMJKp2E0nIPxxeXerVY1EY1Xq3XJerq9ag+6mB98HLxvtW/he9zj6AnWydNBYwTeJPwGoC/W6cZTRRfuwsMXsdLuBcYg7InQWe4pzE262+OY5+1Pekih+pqMwzijLEXEgM9iIN54SIG5+Az3F/yyGkSONgbLTcWf+qrxBmjiFHqz3OD+9ZHzjYqlRlJPBsu8Qyvh6RlU/JPMW5VmoPnA1l8nWdYYhCHZ7qfMa8ow07wJwbP2rHAH3PnwJsU1vvKzmgS/vRb0R/3KTdzpVmOuT0sv/2RodWQO/PYC6wvx7Cc+VFhPwy9yJ354EPnF8+5tRcWRrj2wny1ZtZah/RutewTSWNMCruEkWJJs7a0F7l9S81aZFhr+DfDkpF/MObM2hIG/m/4BQPfe/j8GxUMJCY=
@@ -192,7 +195,7 @@
  </layer>
  <layer name="Objects_replace" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFwxkIMA20C0YBtUC/MANDJfPQNX8UjIJRMAqoCURG67dRMAIBAIrGAmU=
+   eJxjYBgFwxkIMA20C0YBNUEl89A2fxSMglEwCqgFREbrt1EwAgEAl+YBIQ==
   </data>
  </layer>
  <layer name="Above" width="25" height="30">
@@ -202,7 +205,7 @@
  </layer>
  <layer name="Above_replace" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo4C2IImJgWGbEG3tuCzGwHCMxnZcAtrRL0xbOwiBZKahbf4oGAWjYBSMglEwCsgHAPgyBUI=
+   eJxjYBgFo4C2IImJgWGbEG3tuCzGwHCMxnZcAtrRL0xbO/ABkN3JTEPX/FEwCkbBKBgFo2AUUAYA6xIGhg==
   </data>
  </layer>
  <layer name="Top" width="25" height="30">

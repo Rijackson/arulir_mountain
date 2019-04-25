@@ -1,46 +1,26 @@
 [
   {
-    "id": "arulirmountain_trap01",
-    "name": "Arulir Mountain Trap 1",
+    "id": "arulirmountain_trap",
+    "name": "Arulir Mountain Trap",
     "stages": [
+      { "progress": 01,
+        "logText":"01=Hole"
+      },
       {
-        "progress": 10
-      }
-    ]
-  },
-  {
-    "id": "arulirmountain_trap02",
-    "name": "Arulir Mountain Trap 2",
-    "stages": [
+        "progress": 02,
+        "logText":"02=Hole"
+      },
       {
-        "progress": 10
-      }
-    ]
-  },
-  {
-    "id": "arulirmountain_trap03",
-    "name": "Arulir Mountain Trap 3",
-    "stages": [
+        "progress": 03,
+        "logText":"03=Hole"
+      },
       {
-        "progress": 10
-      }
-    ]
-  },
-  {
-    "id": "arulirmountain_trap04",
-    "name": "Arulir Mountain Trap 4",
-    "stages": [
+        "progress": 04,
+        "logText":"04=Hole"
+      },
       {
-        "progress": 10
-      }
-    ]
-  },
-  {
-    "id": "arulirmountain_trap05",
-    "name": "Arulir Mountain Trap 5",
-    "stages": [
-      {
-        "progress": 10
+        "progress": 05,
+        "logText":"05=Rocks"
       }
     ]
   },
@@ -48,8 +28,7 @@
     "id": "arulircave_trap",
     "name": "Arulir Cave Traps",
     "stages": [
-      {
-        "progress": 01,
+      { "progress": 01,
         "logText":"01=Hole"
       },
       {
