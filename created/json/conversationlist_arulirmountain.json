@@ -34,8 +34,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "arulirmountain_trap01",
-        "value": 10
+        "rewardID": "arulirmountain_trap",
+        "value": 01
       },
       {
         "rewardType": "actorCondition",
@@ -71,8 +71,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "arulirmountain_trap02",
-        "value": 10
+        "rewardID": "arulirmountain_trap",
+        "value": 02
       },
       {
         "rewardType": "actorCondition",
@@ -108,8 +108,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "arulirmountain_trap03",
-        "value": 10
+        "rewardID": "arulirmountain_trap",
+        "value": 03
       },
       {
         "rewardType": "actorCondition",
@@ -145,8 +145,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "arulirmountain_trap04",
-        "value": 10
+        "rewardID": "arulirmountain_trap",
+        "value": 04
       },
       {
         "rewardType": "actorCondition",
@@ -182,8 +182,8 @@
     "rewards": [
       {
         "rewardType": "questProgress",
-        "rewardID": "arulirmountain_trap05",
-        "value": 10
+        "rewardID": "arulirmountain_trap",
+        "value": 05
       },
       {
         "rewardType": "actorCondition",
