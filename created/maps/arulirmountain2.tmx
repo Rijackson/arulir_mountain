@@ -180,14 +180,17 @@
  <tileset firstgid="7321" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7449" name="map_rock_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
+  <image source="../drawable/map_rock_2.png" width="512" height="256"/>
+ </tileset>
  <layer name="Ground" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJyVk8sRwjAMRAM3F00D9OKohBhOueZzSAEpBGtYDYuwCBx2PJP1kxRJLueuK1APSdXstFTt8G9VW3r3M7FCsXoXdwHL3zPFjVj1xvTJDvAKzihni53gtfIZq1yLPZJQzn/Zy+kp5fSc0KNrcP8e1Dyml28zjHrLPVbZTFaae8SJy5tpp1riOTFr/+l3j+XjCPZJ+eHH/jJv8zmq2e7ze2D2W838fna3F1rzAxArp6g=
+   eJyVk0ESgzAIRa27HLoX8C7KEaKu3GpceAAP0jCF8ZeGtC7eOCN5AQHHtmlGYRAosxlS5pT4lDnCZ7wHl+CuwdybxMX3Ee71XI4t4dtdM7PUP1Vyllxmd/Kpy57n1iDIedd9Pt6wx89V+ts552en5iVccZ2h11vsMaPz3GHunkcmbw87VQLnhK5+p909xN5Dsk/sx/a//qKv8/lVs57H/wHdWs34/5xmL7jmFySfp6s=
   </data>
  </layer>
  <layer name="Objects" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFf4QYGK4LMmAFXEwMDE+ZIGwTcexqYGAfUN1eJggN0iMFxNeg5rqJo8ojA5Ddj4SwmwkyJw1q72OgGhlhCBtk7hokcz5h8cMUcYjfQABk/mMoOxjqjp1imPbFMkLMLQPqNRNHuA9sP9RfuNyaC9R7SAyCQWyQ+SAshubfG1DzYPYjyx9CctN1NHXXBDHlQCASaNdhoJo2oHuDGSHuBAFnJHOR2c+g7HVQugSob5k4angEI8U7uvth4jC6kwnhHpjZNwUR5oCACBMkXD8hhd1ULOmpEKimCM0+9HiCmT0Nqh+WpgjRMHNSgPpMof4FhSlyWF6DpkVJNDckI/FT0Nx9CU0tPuAqDrEPAF6US74=
+   eJxjYEAFf4QYGK4LMmAFXEwMDE+ZIGwTcexqYGAfUN1eJggN0iMFxNeg5rqJo8ojA5Ddj4SwmwkyJw1q72OgGhlhCBtk7hokcz5h8cMUcYjfQABkPkj/Y6CeYKg7doph2hfLCDG3DKjXTBzhPhDYBqSfMeF2ay5Q7yExCAaxQeaDsBiaf29AzYPZjyx/CMlN19HUXRPElAOBSKBdh4Fq2oDuDWaE+BEEnJHMRWY/g7LXQekSoL5l4qjhEYwU7+juh4nD6E4mhHtgZt8URJgDAiJMkHD9hBR2U7Gkp0KgmiI0+9DjCWb2NKh+WJoiRMPMSQHqM4X6FxSmyGF5DZoWJdHckIzET0Fz9yU0tfiAqzjEPgBfqUyG
   </data>
  </layer>
  <layer name="Objects_replace" width="15" height="15">
@@ -202,10 +205,10 @@
  </layer>
  <layer name="Walkable" width="15" height="15" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJFOGASIVYcOsMnjswOXGlxmEpLDJY8PEOs3ZDeTEz6EwoSQXmLtppZectIEsfE/FDEAX0aDYA==
+   eJzbKMbAsJFOGASIVYcOsMnjswOXGlxmEpLD5i5cbiXFDHSzyAkfQmFCSC+xdlNLLzlpgtj4H4oYAJYqgpk=
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="96" width="32" height="96">
    <properties>
     <property name="map" value="arulirmountain1"/>
@@ -266,7 +269,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Replace">
+ <objectgroup name="Replace" visible="0">
   <object id="9" name="arulirmountain_trap:01" type="replace" x="160" y="288" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_replace"/>

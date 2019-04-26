@@ -190,7 +190,7 @@
  </layer>
  <layer name="Objects" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJy1Vr9rFFEQfrm9a3PeLtklaFCTStOLiaWchXZeJdhoLQqiwiU24o8qZcxfcKSwFMHai2hSaiEYq2uCmjSCBg0Snc83483Ovt0Tgh8Mt9l97/vmx5t56afO9Stscsq5C2QWnZr/XcO6qPh9LVLfR9hsgB+cMPAsZ849JnsR5d//1Qr4fN6YjkH2fxv3f98Yy5vFTD2vUZYTG/t+7Fwz8c+XxjzHbYrjIj2nnL+z/LsZeSvLyXYc0EmHz8K3Q+vuZPl1Uqu9CY4/EIPk9V8A3TZrTNby376wn5ZfctKo+ToKrtby+xrqXAHH68O103Vfizexjzd0boA/dU2K52VA+1rG3w/0fiXzOjfVN/FjNhADkBqesnfA29TroDY6HoFoCP+Ac7FxqLi2S2sWyBbJXnGOkJPrideHTo/jedcqamBfZPwcqLPVNWdgI/X8p4h/i54/kn1K8zrTbCdI4wzriI86L+L7ktFAHM/Ih3Ok8ZqerzWc+6x0AJkBOLvQmTdaC4p7KaDxnPa9jH0M25w3tPo6Pd9reu6HmfdRzxLRmleaIX7RuMwxAPepfi3WAG5lvv+Bslkrs0rz6zOMetxlDT2q1rlODziOkEbZ3JJz11HnYo9y1U68/1+pnzZp/4/Ux7CaDc/JKH7MLfDjDBxJitoC4X9CtX+k5tfcVPVdYe8CDeRDaiH8glWlcbhCQ3Pvc58gltPcW5hTu2TfDf+M6fMyDeH/GQ/vI41fE8V3MptWOAapRZnG0wD3jur5Zup1rM8A8rTMOqjFyRKNPvONqxrL3YZcHaW1x1R+5F4UTbmzbAy5XKn9WzwfAJkvMocs4D9y1avQ0LMLwOza5Zp2AnP9ipnNPdMXIY3Q7ALeKy7ko13RJ4JQLar+r+qqGYk86pm5WNI/ZTGENKQGc2Ze6pl5UI2qPdaP/6kBjOrvg2qEelGv/w3E+Bbo
+   eJy1Vr9PFEEUHm7vWo7bDbshSlSslN4IluYstOMqExutjSZGjQc2xh+xoAT+gguFpSGh9jACJRYmYnUNUaExUaLEoO9z3vPezs7smRC/5OWGnZnvez9m3tBNjemW2Ni4MVfIXLQq9ncN66Li/Fqk5gfYpIcfnDDwLGTGLJK9ivLf/2p5fL7smI5B9n8btn/fHsqbi9PVvEYoJ27sh7Ex9cSOrw5ZjnsUxwyNU87fRf7djqyFcrIbe3TS/lj49mjd/Sy/Tmp1MMrxe2KQvP4LoNtkjbFKfu4L++nyS05qFVtHwY1Kfl9NnSvgVLW/dqJqa7EV23h95wb4U9ekeF56tK/h+PuBvi9lVueOmhM/Jj0xAKnDE/oGvE2tDmqj4xGIhvD3OBebI8W1bVozSzZH9oZzhJzcSqw+dDocz7tGUQP7IsfPnjpbbecMbKaW/xzx79D4I9mnNK8zwXaGNC6wjvio8yK+zzsaiGOFfLhEGus0vlkz5rPSAaQH4OxCZ9rRmlXc8x6NVdr3OrYx7HLecNU3aPyobrmfZtZH3UtEa1pp+vhF4xrHADym+jVYA7ib2fsPhHqt9CrNr88w6vGQNXSr2uA6PeE4fBqhviXnrqXOxQHlqplY/7/Sfdqm/T9SG8Ny1j8ng/jRt8CPM3A8KWqLLvgf0PwLqv0z1b+mxsvfCvct0EA+pBbi/3P2YVlpHCvR0NyHfE8Qy3m+W+hT+2TfmV9ra4Q0hP9n3H+PNH6NFr9Jb1riGKQWIY2XHu49defrqdVxfQaQpwXWQS3OBjS6zDesaixvG3J1gtaeVPmRd1E05c1yY8jlSu3f4f4ASH+RPuQC/iNXnRIN3bsA9K59rmnL09evO72549wLn4avdwHvFRfy0QzcEw1fLcr+r2qrHok86p45F7g/oRh8GlKDKadf6p55VI2yPa4f/1MDGHS/j6rhu4t6/W+5sBdU
   </data>
  </layer>
  <layer name="Objects_replace" width="25" height="30">
@@ -200,7 +200,7 @@
  </layer>
  <layer name="Above" width="25" height="30">
   <data encoding="base64" compression="zlib">
-   eJylVbFKA0EQXRNsxCLewsEpIY2N2NhGwSadgo21aawEOysNfoCtVrZa+QOC7QVEsbtAGv9A/AJtnMVbMtm82d27e7CQ7M68N7v7di5Plcq6Sh0445CGhHE6+523cUzBYrIAH8ekzEtaWM/gN5n/f6aV2o7kR3wh7BP/pY7fw6iNNY6X/gfCEfHfaLw2EeodgbOvujeeN2jhNUkfoRBinxM8L+V9Cr7KyhrvnbMyNb4CDeOjqUfb7m26trj2pOfjeI0vHZnT5R8K9+pCOrsQvy/vVLjTKvwhT1001BhHaDQF0vhgvqjicQ6eV5QaJ+y+uQa/p13qJXsR/cTwGw8PnH54TRpfyWKswXc5n6fhvmj9s+p41J7VT4LnLXwath7kT9e3t6R/R2NTx2uEvM95zpeVeiDuR41rQhohfoM36lPvoFchPyGNWN+jd4xym2ggoP3X0egJ69K7Qxroe8exQne7A/ik2mLeB4epdV3o5XU13P37ztGnseXpJ27eleccfRo+nRiP2b2i2H53piHpxGjYGOTbDUcjxsd9oQ6pL9TRMDlV3pOJ/wPxi34n
+   eJylVbFKBDEQjXfYiIVuYGGVw8ZGbGxPweY6BRtrbWwU7CxED2uxtrK28gcE2z0QxW4PrvEPxC/QxgluuNncmyS7+yBwl8y8N0leZvNUqayn1J4z9mlIGKXT33kXxxQsJgvwcYzLvKSD9Qx+k+r/M63UZiQ/4gthl/ivdPwehl2scTj3PxAOiP9O47WxUO8QnH3dvfG8QQevSfoIhRD7nOB5Ke9T8FVW1vjgnJWp8RVoGB9NPNp2b5Pl2bUnXY3jNb4syZwu/7Fwry6kswvx+/JOhDutwx/y1EVLjVGERlsgjQ/mizoe5+B5RalxxO6ba/B72qZeshPRTwy/8fDA6Yc3pPGVzMYafJfzeRrui9Y/i45H7Vn9lFynujpv4dOw9SB/ur69JP57Gus6XiPkfc5zPq/ULXE/alwT0gjxG7xRn3oHvQr5CWnE+h69Y5TbRgMB7b+JxpqwLr07pIG+dxwLdLdbgE+qLeZ9cJhaV4Re3lTD3b/vHH0aG55+4uZde87Rp+HTifGY3SuK7femGpJOjIaNQb5ddTRifNwX6pD6QhMNk1PnPZn4P5Ayfmw=
   </data>
  </layer>
  <layer name="Above_replace" width="25" height="30">
@@ -215,7 +215,7 @@
  </layer>
  <layer name="Walkable" width="25" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzdk8ENwCAMA5mi+6/AhlW/URxCcvBopD6g4IsNzGeMeej76pQ2oZ8tSjv6T3nY7YNg2LOI1kR8Og/VY4exU0T/keZqXPGxymzXW2aPYlQzzDK6d0ExrC6pb7WorDwdlRmRv/JUZXhFnUNUak33bno6XYbKRs3ROa38dRhUThkdwkf0LjIeK4yM1z8wqvrE/luMFwR2p7c=
+   eJzdk8ENwCAMA5mi+6/Ahn1VqlCchOToo5H6gIIvNjCvMeaB76kT2m8G0WNUlLb3n/Kw2wfBWM/CW+Px6TxUjx3GThH9e5rRuOIjymzXW2aPYlQzzDK6d0ExVl1Sf9WisrJ0VGZE/opbZVhFna9Xak33blo6XYbKRs3ROUX+Ogwqp4wO4cN7FxmPFUbG6x8YVX1i/1eMG96apvA=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -299,7 +299,7 @@
   </object>
   <object id="22" name="arulir_2" type="spawn" x="640" y="64" width="96" height="128"/>
  </objectgroup>
- <objectgroup name="Keys" visible="0">
+ <objectgroup name="Keys">
   <object id="28" name="arulircave_trap:01" type="key" x="320" y="704" width="32" height="32">
    <properties>
     <property name="phrase" value="do_nothing_but_leave"/>

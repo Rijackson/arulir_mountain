@@ -202,10 +202,10 @@
  </layer>
  <layer name="Walkable" width="30" height="30" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztk8sNACEIRK1i+2/BDvdKDMoMPy+ScDHKGxic3xjz5dWUgdy16rBM+W5XQzvX3jM8NpA6iIaTdpTPztzSquk6ec9yUV3sznn2FJlH5B+xOxhhSd8y5uL5P11cT52or16fsvYpw6Oojsq9yODJ8+4eK+d7g6lxK1krs9rLql6j0dHrqreb+fKllT+tdy8I
+   eJztk8sNACEIRK1i+2/BDvdKDMoMAl4gmYtR3vBxfmPM1lPJQO5aeVimfLfLoZ1r7xkeG0gexMPJO8pne2551XydZs9yUV/sznn2FOlHxh/aRQQPzRPB8/ivrvOWy8w1g+utNWq/qvYigifPq2vM7O8LpsbNZK3M7Flm1XobFbWufquZrZalH3YsLkE=
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup name="Mapevents" visible="0">
   <object id="1" name="west" type="mapchange" x="0" y="736" width="32" height="32">
    <properties>
     <property name="map" value="mountainlake5"/>
@@ -343,7 +343,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Replace">
+ <objectgroup name="Replace" visible="0">
   <object id="23" name="arulirmountain_trap:03" type="replace" x="256" y="128" width="32" height="32">
    <properties>
     <property name="Objects" value="Objects_replace"/>

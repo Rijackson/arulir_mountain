@@ -189,7 +189,7 @@
  </layer>
  <layer name="Objects" width="10" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYCAfMIkRoYaFgUEIqI4RSGuwYFejCRR/JMTAoARUF8wEEVPHopYVKscJpYWEsZt3GGjOA2YIfgjEYkwIPfgASC2x4JMo8WpJAQAFzggZ
+   eJxjYCAfMIkRoYaFgUEIqI4RSGuwYFejCRR/JMTAoARUF8wEEVPHopYVKscJpIWEcdt5GGjOA2YIfgjEYkwQPYQASC2x4JMo8WpJAQAGYggZ
   </data>
  </layer>
  <layer name="Objects_replace" width="10" height="10" visible="0">
@@ -199,17 +199,17 @@
  </layer>
  <layer name="Above" width="10" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYCAPHBaD0M5MuNVcBqq5BFUXjEcdzCwYYBLGrQ5d7qIYproHzLjtojcg1S0AZfkHzg==
+   eJxjYCAPHBaD0M5MuNVcBqq5BFUXjEcdzCxi7GQShrD7gPRFHPoeMBNnHj0AqW4BANzBCFo=
   </data>
  </layer>
- <layer name="Above_replace" width="10" height="10" visible="0">
+ <layer name="Above_replace" width="10" height="10">
   <data encoding="base64" compression="zlib">
    eJxjYBh+4AEzA8N5Zgj7ETP55lwTIk/fdiL0gdz4AIvbAJvPBhI=
   </data>
  </layer>
  <layer name="Walkable" width="10" height="10" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJHGGASIUYMOcJmDLE+K2cS4jxx1hNxNCgYAnX4+MQ==
+   eJzbKMbAsJHGGASIUYMOcJmDTJNiNjHuI0cdIXeTggGgmj4x
   </data>
  </layer>
  <layer name="Walkable_replace" width="10" height="10" visible="0">
