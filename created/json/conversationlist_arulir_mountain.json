@@ -1,0 +1,10 @@
+[
+    {
+        "id":"sign_arulir1",
+        "message":"Danger! Unstable cliffs. Proceed with caution!"
+    },
+    {
+        "id":"sign_arulir2",
+        "message":"Danger! Cave subject to rockfall. Do not enter!"
+    }
+]
