@@ -19,7 +19,7 @@
     },
     {
         "id":"head_wound",
-        "iconID":"actorconditions_2:0",
+        "iconID":"actorconditions_1:48",
         "name":"Head wound",
         "category":"physical",
         "roundEffect":{
