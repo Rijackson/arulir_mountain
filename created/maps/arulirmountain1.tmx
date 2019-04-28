@@ -26,7 +26,7 @@
   <image source="../drawable/map_cavewall_2.png" width="576" height="192"/>
  </tileset>
  <tileset firstgid="857" name="map_cavewall_3" tilewidth="32" tileheight="32">
-  <image source="../../../../../../ATCS Workspace/arulir_mountain/altered/spritesheets/map_cavewall_3.png" width="576" height="192"/>
+  <image source="../drawable/map_cavewall_3.png" width="576" height="192"/>
  </tileset>
  <tileset firstgid="965" name="map_cavewall_4" tilewidth="32" tileheight="32">
   <image source="../drawable/map_cavewall_4.png" width="576" height="192"/>
