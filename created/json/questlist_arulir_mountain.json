@@ -81,5 +81,38 @@
         "finishesQuest": 1
       }
     ]
+  },
+  {
+    "id": "arulir_nondisplay",
+    "name": "Arulir nondisplay",
+    "stages": [
+      { "progress": 101,
+        "logText":"Hole 1"
+      },
+      { "progress": 102,
+        "logText":"Hole 2"
+      },
+      { "progress": 103,
+        "logText":"Hole 3"
+      },
+      { "progress": 104,
+        "logText":"Hole 4"
+      },
+      { "progress": 105,
+        "logText":"Hole 5"
+      },
+      { "progress": 106,
+        "logText":"Hole 6"
+      },
+      { "progress": 102,
+        "logText":"Hole 2"
+      },
+      { "progress": 102,
+        "logText":"Hole 2"
+      },
+      { "progress": 102,
+        "logText":"Hole 2"
+      }
+    ]
   }
 ]
