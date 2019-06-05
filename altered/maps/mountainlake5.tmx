@@ -140,7 +140,7 @@
  </layer>
  <layer name="Walkable" width="29" height="20" visible="0">
   <data encoding="base64" compression="zlib">
-   eJxzFWBgcCUCwwAxaqmlHxmQaye57kQH6Oahi1PqVlLcQchOaroHn/nYwppWdmKLT1qEOSl2Usuv+OIeF5/aduJLO7TyJ6FwpZaduMyhtp3E6EdXQ4n9xOrDJocPkBNPpLiFEkBJeiAnTVLTvlE8+DEAcM6UFw==
+   eJxzFWBgcCUCwwAxaqmlHxmQaye57kQH6Oahi1PqVlLcQchOaroHlxnY7KRGOiHVTmqHOSl2Usuv+OIeF5/aduJLO7TyJ6FwpZaduMyhtp3E6EdXQ4n9xOrDJocPkBNPpLiFEkBJeiAnTVLTvlE8+DEAt+iUbA==
   </data>
  </layer>
  <layer name="Walkable_replace" width="29" height="20">

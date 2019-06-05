@@ -37,6 +37,420 @@
         "rewardID": "arulirmountain_trap",
         "value": 01
       },
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_hole"
+      }
+    ]
+  },
+  {
+    "id": "arulirmountain_trap02",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "arulirmountain_trap",
+        "value": 02
+      },
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_hole"
+      }
+    ]
+  },
+  {
+    "id": "arulirmountain_trap03",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "arulirmountain_trap",
+        "value": 03
+      },
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_hole"
+      }
+    ]
+  },
+  {
+    "id": "arulirmountain_trap04",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "arulirmountain_trap",
+        "value": 04
+      },
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks"
+      }
+    ]
+  },
+  {
+    "id": "arulirmountain_trap05",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "arulirmountain_trap",
+        "value": 05
+      },
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks"
+      }
+    ]
+  },
+  {
+    "id": "arulircave_trap01",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "arulircave_trap",
+        "value": 01
+      },
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_hole"
+      }
+    ]
+  },
+  {
+    "id": "arulircave_trap02",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "arulircave_trap",
+        "value": 02
+      },
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks"
+      }
+    ]
+  },
+  {
+    "id": "arulircave_trap03",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "arulircave_trap",
+        "value": 03
+      },
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks"
+      }
+    ]
+  },
+  {
+    "id": "arulircave_trap04",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "arulircave_trap",
+        "value": 04
+      },
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_hole"
+      }
+    ]
+  },
+  {
+    "id": "arulircave_trap05",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "arulircave_trap",
+        "value": 05
+      },
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks"
+      }
+    ]
+  },
+  {
+    "id": "arulircave_trap06",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "arulircave_trap",
+        "value": 06
+      },
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks"
+      }
+    ]
+  },
+  {
+    "id": "arulircave_trap07",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "arulircave_trap",
+        "value": 07
+      },
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_hole"
+      }
+    ]
+  },
+  {
+    "id": "arulircave_trap08",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "arulircave_trap",
+        "value": 08
+      },
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_hole"
+      }
+    ]
+  },
+  {
+    "id": "arulircave_trap09",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "arulircave_trap",
+        "value": 09
+      },
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks"
+      }
+    ]
+  },
+  {
+    "id": "arulirmountain_trap_hole",
+    "rewards": [
+      {
+		"rewardType": "alignmentChange",
+		"rewardID": "arulirmountain_trap_hole",
+		"value": 1
+      }
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_hole_9",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_hole",
+			"value": 9
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_hole_8",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_hole",
+			"value": 8
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_hole_7",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_hole",
+			"value": 7
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_hole_6",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_hole",
+			"value": 6
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_hole_5",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_hole",
+			"value": 5
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_hole_4",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_hole",
+			"value": 4
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_hole_3",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_hole",
+			"value": 3
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_hole_2",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_hole",
+			"value": 2
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_hole_1",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_hole",
+			"value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arulirmountain_trap_rocks",
+    "rewards": [
+      {
+		"rewardType": "alignmentChange",
+		"rewardID": "arulirmountain_trap_rocks",
+		"value": 1
+      }
+    ],
+    "replies": [
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks_9",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_rocks",
+			"value": 9
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks_8",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_rocks",
+			"value": 8
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks_7",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_rocks",
+			"value": 7
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks_6",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_rocks",
+			"value": 6
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks_5",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_rocks",
+			"value": 5
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks_4",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_rocks",
+			"value": 4
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks_3",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_rocks",
+			"value": 3
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks_2",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_rocks",
+			"value": 2
+          }
+        ]
+      },
+      {
+        "nextPhraseID": "arulirmountain_trap_rocks_1",
+        "requires":[
+		  {
+			"requireType": "factionScore",
+			"requireID": "arulirmountain_trap_rocks",
+			"value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arulirmountain_trap_hole_1",
+    "rewards": [
+      {
+        "rewardType": "questProgress",
+        "rewardID": "arulirmountain_trap",
+        "value": 01
+      },
       {
         "rewardType": "actorCondition",
         "rewardID": "bleeding_wound",
@@ -67,7 +481,7 @@
     "message": "You fell into a hole and hurt yourself."
   },
   {
-    "id": "arulirmountain_trap02",
+    "id": "arulirmountain_trap_hole_2",
     "rewards": [
       {
         "rewardType": "questProgress",
@@ -101,10 +515,10 @@
         "nextPhraseID": "X"
       }
     ],
-    "message": "You fell into a hole and hurt yourself."
+    "message": "You fell into a second hole and hurt yourself."
   },
   {
-    "id": "arulirmountain_trap03",
+    "id": "arulirmountain_trap_hole_3",
     "rewards": [
       {
         "rewardType": "questProgress",
@@ -138,10 +552,10 @@
         "nextPhraseID": "X"
       }
     ],
-    "message": "You fell into a hole and hurt yourself."
+    "message": "You fell into a third hole and hurt yourself."
   },
   {
-    "id": "arulirmountain_trap04",
+    "id": "arulirmountain_trap_rocks_1",
     "rewards": [
       {
         "rewardType": "questProgress",
@@ -178,7 +592,7 @@
     "message": "Some rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
   },
   {
-    "id": "arulirmountain_trap05",
+    "id": "arulirmountain_trap_rocks_2",
     "rewards": [
       {
         "rewardType": "questProgress",
@@ -212,10 +626,10 @@
         "nextPhraseID": "X"
       }
     ],
-    "message": "Some rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
+    "message": "Two rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
   },
   {
-    "id": "arulircave_trap01",
+    "id": "arulirmountain_trap_hole_4",
     "rewards": [
       {
         "rewardType": "questProgress",
@@ -249,10 +663,10 @@
         "nextPhraseID": "X"
       }
     ],
-    "message": "You fell into a hole and hurt yourself."
+    "message": "You fell into a fourth hole and hurt yourself."
   },
   {
-    "id": "arulircave_trap02",
+    "id": "arulirmountain_trap_rocks_3",
     "rewards": [
       {
         "rewardType": "questProgress",
@@ -286,10 +700,10 @@
         "nextPhraseID": "X"
       }
     ],
-    "message": "Some rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
+    "message": "Three rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
   },
   {
-    "id": "arulircave_trap03",
+    "id": "arulirmountain_trap_rocks_4",
     "rewards": [
       {
         "rewardType": "questProgress",
@@ -323,10 +737,10 @@
         "nextPhraseID": "X"
       }
     ],
-    "message": "Some rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
+    "message": "Four rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
   },
   {
-    "id": "arulircave_trap04",
+    "id": "arulirmountain_trap_hole_5",
     "rewards": [
       {
         "rewardType": "questProgress",
@@ -360,10 +774,10 @@
         "nextPhraseID": "X"
       }
     ],
-    "message": "You fell into a hole and hurt yourself."
+    "message": "You fell into a fifth hole and hurt yourself."
   },
   {
-    "id": "arulircave_trap05",
+    "id": "arulirmountain_trap_rocks_5",
     "rewards": [
       {
         "rewardType": "questProgress",
@@ -397,10 +811,10 @@
         "nextPhraseID": "X"
       }
     ],
-    "message": "Some rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
+    "message": "Five rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
   },
   {
-    "id": "arulircave_trap06",
+    "id": "arulirmountain_trap_rocks_6",
     "rewards": [
       {
         "rewardType": "questProgress",
@@ -434,10 +848,10 @@
         "nextPhraseID": "X"
       }
     ],
-    "message": "Some rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
+    "message": "Six rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
   },
   {
-    "id": "arulircave_trap07",
+    "id": "arulirmountain_trap_hole_6",
     "rewards": [
       {
         "rewardType": "questProgress",
@@ -471,10 +885,10 @@
         "nextPhraseID": "X"
       }
     ],
-    "message": "You fell into a hole and hurt yourself."
+    "message": "You fell into a sixth hole and hurt yourself."
   },
   {
-    "id": "arulircave_trap08",
+    "id": "arulirmountain_trap_hole_7",
     "rewards": [
       {
         "rewardType": "questProgress",
@@ -508,10 +922,10 @@
         "nextPhraseID": "X"
       }
     ],
-    "message": "You fell into a hole and hurt yourself."
+    "message": "You fell into a seventh hole and hurt yourself."
   },
   {
-    "id": "arulircave_trap09",
+    "id": "arulirmountain_trap_rocks_7",
     "rewards": [
       {
         "rewardType": "questProgress",
@@ -545,7 +959,7 @@
         "nextPhraseID": "X"
       }
     ],
-    "message": "Some rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
+    "message": "Seven rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
   },
   {
     "id": "arulircave_secret_open",

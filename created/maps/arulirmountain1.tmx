@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="32">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="32" tileheight="32" infinite="0" nextobjectid="34">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -200,9 +200,9 @@
    eJy1VjFOxDAQDI4EEh2JdOj4Bk/gEXQ0PIFXIJ4QwQ94ACVcw4kG3UmIGsRV1FQgEUuxvLeZXa8dmCq5jGfiye76qqocD/X2/b6bIEawmKU5301V3Q/+R73voh5zqM75PO1n8b1wkbsn7Neis55F3srAp9rPu/iZRcevz/HL0U75ctTtNE0rrtl3aoFv58Y8DTn8K4HXkd/XIJ9O0ed8xPWcwJOeW2qV4tLF/VBNqhNqTPPMqSc0V1DPck30TqXw88PSszzTFcg4N3PLuyMO8n08sPtK9c2/O/J5a7bvfwbfr/76tb9+N/SO5B8ypr4fLr3/gBJvWrd8f/+J4Gnp1WPljLPsmftS/xzw2YS8pfxyzmLu6dd8kvrW5ieHNWPkifK5yfBGGmftmKPxU2eJ5KuB5hH66wXMDy3nQ/YM9Sl6L0vN3Qq+jmSn9QTy9dgIM5Lvk+fXEN+T+XiGnO7E67uh/mnGXv+JeEvzz1KjaK3XXjZRI5Ux15j6H3Bj+PaS91+uSc1CTac0+xLwnreA9751FgT8AuWUjUQ=
   </data>
  </layer>
- <layer name="Walkable" width="30" height="30" visible="0">
+ <layer name="Walkable" width="30" height="30">
   <data encoding="base64" compression="zlib">
-   eJztk8sNACEIRK1i+2/BDve0idmgzPC9SMLFIG/AcT5jzJutuQZSq/Vhmeu9XQ/pXLrP8NhA+iAaTtpRPrtzTauk6/T2LBfVxXrO4lNkHxl/aBcRPLRPBM+iv3pOL5d51wyuddYof2X7ItKH63nGe2ph0Z+5W3RnaH2Vh7/aTq6HZwnPjF6d1dzqWf8zd/Fv4vkCkGckJg==
+   eJztk8kNACEMA6li+2+BDvlGKyB2zg+W8kGQcQ7mN8Z80RpSyF0tD8uU7045due79wyPFZIH8XDzjvLZnmted75us2e5qC925yx7ivQj4w+dFMFD80TwLP6r6/RymblmcK21Ru1X9l5E7qE8z5inJov/zN6iPdNmY2F55tzN9fIs8nI9Pqu51bX+a+7iv8BjAcV5JbQ=
   </data>
  </layer>
  <objectgroup name="Mapevents">
@@ -356,7 +356,23 @@
     <property name="requireValue" value="5"/>
    </properties>
   </object>
-  <object id="31" name="andor:1" type="key" x="32" y="576" width="32" height="32">
+  <object id="33" name="andor:1c" type="key" x="544" y="544" width="32" height="32">
+   <properties>
+    <property name="phrase" value="do_nothing_but_leave"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="31" name="andor:1b" type="key" x="576" y="160" width="32" height="32">
+   <properties>
+    <property name="phrase" value="do_nothing_but_leave"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+  <object id="32" name="andor:1" type="key" x="32" y="576" width="32" height="32">
    <properties>
     <property name="phrase" value="do_nothing_but_leave"/>
     <property name="requireId" value="andor"/>
