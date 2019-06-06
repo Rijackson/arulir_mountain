@@ -35,13 +35,13 @@
       {
         "rewardType": "questProgress",
         "rewardID": "arulirmountain_trap",
-        "value": 01
-      },
+        "value": 1
+      }
     ],
     "replies": [
-      {
-        "nextPhraseID": "arulirmountain_trap_hole"
-      }
+	  {
+		"nextPhraseID": "arulirmountain_trap_hole"
+	  }
     ]
   },
   {
@@ -50,8 +50,8 @@
       {
         "rewardType": "questProgress",
         "rewardID": "arulirmountain_trap",
-        "value": 02
-      },
+        "value": 2
+      }
     ],
     "replies": [
       {
@@ -65,8 +65,8 @@
       {
         "rewardType": "questProgress",
         "rewardID": "arulirmountain_trap",
-        "value": 03
-      },
+        "value": 3
+      }
     ],
     "replies": [
       {
@@ -80,8 +80,8 @@
       {
         "rewardType": "questProgress",
         "rewardID": "arulirmountain_trap",
-        "value": 04
-      },
+        "value": 4
+      }
     ],
     "replies": [
       {
@@ -95,8 +95,8 @@
       {
         "rewardType": "questProgress",
         "rewardID": "arulirmountain_trap",
-        "value": 05
-      },
+        "value": 5
+      }
     ],
     "replies": [
       {
@@ -110,8 +110,8 @@
       {
         "rewardType": "questProgress",
         "rewardID": "arulircave_trap",
-        "value": 01
-      },
+        "value": 1
+      }
     ],
     "replies": [
       {
@@ -125,8 +125,8 @@
       {
         "rewardType": "questProgress",
         "rewardID": "arulircave_trap",
-        "value": 02
-      },
+        "value": 2
+      }
     ],
     "replies": [
       {
@@ -140,8 +140,8 @@
       {
         "rewardType": "questProgress",
         "rewardID": "arulircave_trap",
-        "value": 03
-      },
+        "value": 3
+      }
     ],
     "replies": [
       {
@@ -155,8 +155,8 @@
       {
         "rewardType": "questProgress",
         "rewardID": "arulircave_trap",
-        "value": 04
-      },
+        "value": 4
+      }
     ],
     "replies": [
       {
@@ -170,8 +170,8 @@
       {
         "rewardType": "questProgress",
         "rewardID": "arulircave_trap",
-        "value": 05
-      },
+        "value": 5
+      }
     ],
     "replies": [
       {
@@ -185,8 +185,8 @@
       {
         "rewardType": "questProgress",
         "rewardID": "arulircave_trap",
-        "value": 06
-      },
+        "value": 6
+      }
     ],
     "replies": [
       {
@@ -200,8 +200,8 @@
       {
         "rewardType": "questProgress",
         "rewardID": "arulircave_trap",
-        "value": 07
-      },
+        "value": 7
+      }
     ],
     "replies": [
       {
@@ -215,8 +215,8 @@
       {
         "rewardType": "questProgress",
         "rewardID": "arulircave_trap",
-        "value": 08
-      },
+        "value": 8
+      }
     ],
     "replies": [
       {
@@ -230,8 +230,8 @@
       {
         "rewardType": "questProgress",
         "rewardID": "arulircave_trap",
-        "value": 09
-      },
+        "value": 9
+      }
     ],
     "replies": [
       {
@@ -447,11 +447,6 @@
     "id": "arulirmountain_trap_hole_1",
     "rewards": [
       {
-        "rewardType": "questProgress",
-        "rewardID": "arulirmountain_trap",
-        "value": 01
-      },
-      {
         "rewardType": "actorCondition",
         "rewardID": "bleeding_wound",
         "value": 7
@@ -483,11 +478,6 @@
   {
     "id": "arulirmountain_trap_hole_2",
     "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "arulirmountain_trap",
-        "value": 02
-      },
       {
         "rewardType": "actorCondition",
         "rewardID": "bleeding_wound",
@@ -521,11 +511,6 @@
     "id": "arulirmountain_trap_hole_3",
     "rewards": [
       {
-        "rewardType": "questProgress",
-        "rewardID": "arulirmountain_trap",
-        "value": 03
-      },
-      {
         "rewardType": "actorCondition",
         "rewardID": "bleeding_wound",
         "value": 7
@@ -557,11 +542,6 @@
   {
     "id": "arulirmountain_trap_rocks_1",
     "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "arulirmountain_trap",
-        "value": 04
-      },
       {
         "rewardType": "actorCondition",
         "rewardID": "bleeding_wound",
@@ -595,11 +575,6 @@
     "id": "arulirmountain_trap_rocks_2",
     "rewards": [
       {
-        "rewardType": "questProgress",
-        "rewardID": "arulirmountain_trap",
-        "value": 05
-      },
-      {
         "rewardType": "actorCondition",
         "rewardID": "bleeding_wound",
         "value": 5
@@ -631,11 +606,6 @@
   {
     "id": "arulirmountain_trap_hole_4",
     "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "arulircave_trap",
-        "value": 01
-      },
       {
         "rewardType": "actorCondition",
         "rewardID": "bleeding_wound",
@@ -669,11 +639,6 @@
     "id": "arulirmountain_trap_rocks_3",
     "rewards": [
       {
-        "rewardType": "questProgress",
-        "rewardID": "arulircave_trap",
-        "value": 02
-      },
-      {
         "rewardType": "actorCondition",
         "rewardID": "bleeding_wound",
         "value": 6
@@ -705,11 +670,6 @@
   {
     "id": "arulirmountain_trap_rocks_4",
     "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "arulircave_trap",
-        "value": 03
-      },
       {
         "rewardType": "actorCondition",
         "rewardID": "bleeding_wound",
@@ -743,11 +703,6 @@
     "id": "arulirmountain_trap_hole_5",
     "rewards": [
       {
-        "rewardType": "questProgress",
-        "rewardID": "arulircave_trap",
-        "value": 04
-      },
-      {
         "rewardType": "actorCondition",
         "rewardID": "bleeding_wound",
         "value": 8
@@ -779,11 +734,6 @@
   {
     "id": "arulirmountain_trap_rocks_5",
     "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "arulircave_trap",
-        "value": 05
-      },
       {
         "rewardType": "actorCondition",
         "rewardID": "bleeding_wound",
@@ -817,11 +767,6 @@
     "id": "arulirmountain_trap_rocks_6",
     "rewards": [
       {
-        "rewardType": "questProgress",
-        "rewardID": "arulircave_trap",
-        "value": 06
-      },
-      {
         "rewardType": "actorCondition",
         "rewardID": "bleeding_wound",
         "value": 7
@@ -853,11 +798,6 @@
   {
     "id": "arulirmountain_trap_hole_6",
     "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "arulircave_trap",
-        "value": 07
-      },
       {
         "rewardType": "actorCondition",
         "rewardID": "bleeding_wound",
@@ -891,11 +831,6 @@
     "id": "arulirmountain_trap_hole_7",
     "rewards": [
       {
-        "rewardType": "questProgress",
-        "rewardID": "arulircave_trap",
-        "value": 08
-      },
-      {
         "rewardType": "actorCondition",
         "rewardID": "bleeding_wound",
         "value": 10
@@ -927,11 +862,6 @@
   {
     "id": "arulirmountain_trap_rocks_7",
     "rewards": [
-      {
-        "rewardType": "questProgress",
-        "rewardID": "arulircave_trap",
-        "value": 09
-      },
       {
         "rewardType": "actorCondition",
         "rewardID": "bleeding_wound",
@@ -1036,7 +966,21 @@
         "nextPhraseID": "X"
       }
     ],
-    "message": "The ground is very slippery. You stumble and fall into the water."
+    "message": "The ground is very slippery. You can't get back onto the solid rock!"
+  },
+  {
+    "id": "arulircave_trap10_msg",
+    "replies": [
+      {
+		"text": "N",
+        "nextPhraseID": "arulircave_trap10_msg_2"
+      }
+    ],
+    "message": "You slide slowly into the cold water ... you think of Mikhail, and of Andor ... your senses disappear ..."
+  },
+  {
+    "id": "arulircave_trap10_msg_2",
+    "message": "Shivering you come back to consciousness. The current has taken you a long way, but fortunately you have been washed ashore."
   },
   {
     "id": "arulirmountain_bosstrap_r",
