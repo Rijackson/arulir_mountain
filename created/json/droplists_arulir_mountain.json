@@ -220,5 +220,26 @@
         "chance": "1/1000"
       }
     ]
+  },
+  {
+    "id": "bernhar_shop",
+    "items": [
+      {
+        "quantity": {
+          "min": 1,
+          "max": 1
+        },
+        "itemID": "arulir_cap",
+        "chance": "100"
+      },
+      {
+        "quantity": {
+          "min": 1,
+          "max": 1
+        },
+        "itemID": "arulir_boots",
+        "chance": "100"
+      }
+    ]
   }
 ]

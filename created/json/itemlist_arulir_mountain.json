@@ -62,5 +62,21 @@
     "iconID": "items_misc:13",
     "description": "A cold piece of magma",
     "category": "other"
+  },
+  {
+	"id":"arulir_cap",
+    "hasManualPrice": 1,
+	"iconID":"items_armours:21",
+	"name":"Rockfall saving cap",
+	"baseMarketCost":80,
+	"category":"hd_cloth"
+  },
+  {
+	"id":"arulir_boots",
+    "hasManualPrice": 1,
+	"iconID":"items_armours:28",
+	"name":"Sure step boots",
+	"baseMarketCost":120,
+	"category":"feet_lthr"
   }
 ]

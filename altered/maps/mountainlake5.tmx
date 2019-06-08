@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="29" height="20" tilewidth="32" tileheight="32" infinite="0" nextobjectid="20">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="29" height="20" tilewidth="32" tileheight="32" infinite="0" nextobjectid="22">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -138,7 +138,7 @@
    eJxjYKAMvBNgYHgrQLy4NBOFFgLBcSzm4gLk2neBBDuIAYq8DAxKvNjlqBEmwwmkQ8Nem4RwectDmh3haPGbJoBqN6n2IwNc+tKQzNZBUoPuFlyAUJpEt1cHj/uJtZOaAN1OcsOXFJCGxZ/o9oLKqXd0DA/kcpHW9oL8iqt8HggAsve4ACLMiQl75PLekxGYjtAwtvITV/2DDrCZF8aIXw+l5bUsmn5k80ByaTjqCVqC9EFQHgwGOwEPKCJE
   </data>
  </layer>
- <layer name="Walkable" width="29" height="20" visible="0">
+ <layer name="Walkable" width="29" height="20">
   <data encoding="base64" compression="zlib">
    eJxzFWBgcCUCwwAxaqmlHxmQaye57kQH6Oahi1PqVlLcQchOaroHlxnY7KRGOiHVTmqHOSl2Usuv+OIeF5/aduJLO7TyJ6FwpZaduMyhtp3E6EdXQ4n9xOrDJocPkBNPpLiFEkBJeiAnTVLTvlE8+DEAt+iUbA==
   </data>
@@ -233,6 +233,18 @@
    </properties>
   </object>
   <object id="15" name="arulir_1" type="spawn" x="800" y="416" width="64" height="32"/>
+  <object id="20" name="arulir_1b" type="spawn" x="832" y="160" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
+  <object id="21" name="arulir_1c" type="spawn" x="832" y="32" width="32" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+    <property name="spawngroup" value="arulir_1"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup name="Keys">
   <object id="16" name="arulirmountain_needskin" type="key" x="768" y="416" width="32" height="32">

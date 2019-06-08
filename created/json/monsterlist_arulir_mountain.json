@@ -215,5 +215,14 @@
     "criticalMultiplier": 3,
     "blockChance": 30,
     "damageResistance": 14
+  },
+  {
+    "id":"bernhar",
+    "name":"Bernhar",
+    "iconID":"monsters_ld1:18",
+    "unique":1,
+    "monsterClass":"humanoid",
+    "phraseID":"bernhar",
+    "droplistID":"bernhar_shop"
   }
 ]

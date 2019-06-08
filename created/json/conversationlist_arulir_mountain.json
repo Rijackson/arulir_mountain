@@ -469,11 +469,30 @@
     ],
     "replies": [
       {
+        "text": "Good that I wear these protective boots. Who knows what could have happened otherwise?",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_boots",
+			"value": 1
+          }
+        ]
+      },
+      {
         "text": "Ouch.",
-        "nextPhraseID": "X"
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_boots",
+			"value": 1,
+			"negate":true
+          }
+        ]
       }
     ],
-    "message": "You fell into a hole and hurt yourself."
+    "message": "The ground under your feet suddenly gives way, and a fissure breaks in which you fall into it."
   },
   {
     "id": "arulirmountain_trap_hole_2",
@@ -501,11 +520,30 @@
     ],
     "replies": [
       {
-        "text": "Ouch.",
-        "nextPhraseID": "X"
+        "text": "My protective boots saved my life another time!",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_boots",
+			"value": 1
+          }
+        ]
+      },
+      {
+        "text": "I almost broke my legs. Would that I have better shoes...",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_boots",
+			"value": 1,
+			"negate":true
+          }
+        ]
       }
     ],
-    "message": "You fell into a second hole and hurt yourself."
+    "message": "Again, a crack has opened in the deceptive soil."
   },
   {
     "id": "arulirmountain_trap_hole_3",
@@ -533,11 +571,30 @@
     ],
     "replies": [
       {
-        "text": "Ouch.",
-        "nextPhraseID": "X"
+        "text": "Thank's Bernhar for the boots!",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_boots",
+			"value": 1
+          }
+        ]
+      },
+      {
+        "text": "It is really dangerous to walk here!",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_boots",
+			"value": 1,
+			"negate":true
+          }
+        ]
       }
     ],
-    "message": "You fell into a third hole and hurt yourself."
+    "message": "Again a hole in the ground! This time you can't even see the ground, but somehow you managed to stop your fall after a few meters."
   },
   {
     "id": "arulirmountain_trap_rocks_1",
@@ -565,8 +622,27 @@
     ],
     "replies": [
       {
-        "text": "Ouch.",
-        "nextPhraseID": "X"
+        "text": "Thanks to my protective cap I am not seriously damaged.",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_cap",
+			"value": 1
+          }
+        ]
+      },
+      {
+        "text": "Ouch, my head!",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_cap",
+			"value": 1,
+			"negate":true
+          }
+        ]
       }
     ],
     "message": "Some rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
@@ -597,11 +673,30 @@
     ],
     "replies": [
       {
-        "text": "Ouch.",
-        "nextPhraseID": "X"
+        "text": "Lucky that I wear this protective cap.",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_cap",
+			"value": 1
+          }
+        ]
+      },
+      {
+        "text": "I should take more care where I am going.",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_cap",
+			"value": 1,
+			"negate":true
+          }
+        ]
       }
     ],
-    "message": "Two rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
+    "message": "You hear rocks cracking above your head again.\nNo chance to jump away in time!"
   },
   {
     "id": "arulirmountain_trap_hole_4",
@@ -629,11 +724,18 @@
     ],
     "replies": [
       {
-        "text": "Ouch.",
-        "nextPhraseID": "X"
+        "text": "I hope the boots still keep this load for some time.",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_boots",
+			"value": 1
+          }
+        ]
       }
     ],
-    "message": "You fell into a fourth hole and hurt yourself."
+    "message": "You fell into another hole hidden in the ground and hurt yourself."
   },
   {
     "id": "arulirmountain_trap_rocks_3",
@@ -661,11 +763,30 @@
     ],
     "replies": [
       {
-        "text": "Ouch.",
-        "nextPhraseID": "X"
+        "text": "That was neat. I fear that not even my protective cap would have helped much against that huge boulder.",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_cap",
+			"value": 1
+          }
+        ]
+      },
+      {
+        "text": "That was neat!",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_cap",
+			"value": 1,
+			"negate":true
+          }
+        ]
       }
     ],
-    "message": "Three rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
+    "message": "Rocks falling! You jump aside - a very big boulder only strived your side luckily."
   },
   {
     "id": "arulirmountain_trap_rocks_4",
@@ -693,11 +814,30 @@
     ],
     "replies": [
       {
+        "text": "Thanks to my protective cap I am not seriously damaged.",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_cap",
+			"value": 1
+          }
+        ]
+      },
+      {
         "text": "Ouch.",
-        "nextPhraseID": "X"
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_cap",
+			"value": 1,
+			"negate":true
+          }
+        ]
       }
     ],
-    "message": "Four rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
+    "message": "A huge boulder suddenly breaks, and its crumbles fall down from above on you."
   },
   {
     "id": "arulirmountain_trap_hole_5",
@@ -725,11 +865,11 @@
     ],
     "replies": [
       {
-        "text": "Ouch.",
+        "text": "Is there never an end to these holes in the ground?",
         "nextPhraseID": "X"
       }
     ],
-    "message": "You fell into a fifth hole and hurt yourself."
+    "message": "You fell into a hole and hurt yourself."
   },
   {
     "id": "arulirmountain_trap_rocks_5",
@@ -757,11 +897,30 @@
     ],
     "replies": [
       {
-        "text": "Ouch.",
-        "nextPhraseID": "X"
+        "text": "What only would I have done without my cap?",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_cap",
+			"value": 1
+          }
+        ]
+      },
+      {
+        "text": "Ouch! The mountain seems to play with me.",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_cap",
+			"value": 1,
+			"negate":true
+          }
+        ]
       }
     ],
-    "message": "Five rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
+    "message": "Several small but sharp edged pieces of rock are coming down. One hit you exactly on your head."
   },
   {
     "id": "arulirmountain_trap_rocks_6",
@@ -793,7 +952,7 @@
         "nextPhraseID": "X"
       }
     ],
-    "message": "Six rocks above your head begin to crack.\nA moment later a pile of rocks rains down on you."
+    "message": "A big part of the mountain side above cracked.\nA moment later a pile of rocks rains down on you."
   },
   {
     "id": "arulirmountain_trap_hole_6",
@@ -821,8 +980,27 @@
     ],
     "replies": [
       {
-        "text": "Ouch.",
-        "nextPhraseID": "X"
+        "text": "Good footwear is the prerequisite for successful mountaineering.",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_boots",
+			"value": 1
+          }
+        ]
+      },
+      {
+        "text": "I begin to hate this area.",
+        "nextPhraseID": "X",
+        "requires":[
+		  {
+			"requireType": "wear",
+			"requireID": "arulir_boots",
+			"value": 1,
+			"negate":true
+          }
+        ]
       }
     ],
     "message": "You fell into a sixth hole and hurt yourself."
@@ -853,11 +1031,11 @@
     ],
     "replies": [
       {
-        "text": "Ouch.",
+        "text": "[singing] How many holes must a man fall down...?",
         "nextPhraseID": "X"
       }
     ],
-    "message": "You fell into a seventh hole and hurt yourself."
+    "message": "Guess what - you have found another crack in the ground."
   },
   {
     "id": "arulirmountain_trap_rocks_7",
@@ -885,7 +1063,7 @@
     ],
     "replies": [
       {
-        "text": "Ouch.",
+        "text": "Sigh. These rocks are really annoying.",
         "nextPhraseID": "X"
       }
     ],
@@ -1124,5 +1302,216 @@
     {
         "id":"sign_arulir2",
         "message":"Danger! Cave subject to rockfall. Do not enter!"
+    },
+    {
+        "id":"bernhar",
+		"replies": [
+			{
+				"nextPhraseID": "bernhar_16",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"arulircave_non_display",
+                        "value":10
+                    }
+                ]
+			},
+			{
+				"nextPhraseID": "bernhar_10"
+			}
+		]
+    },
+    {
+        "id":"bernhar_10",
+		"replies": [
+			{
+				"text": "Who are you?",
+				"nextPhraseID": "bernhar_12"
+			},
+			{
+				"text": "What are you doing here?",
+				"nextPhraseID": "bernhar_12"
+			}
+		],
+        "message":"Oh - a wandering kid! How surprising!"
+    },
+    {
+        "id":"bernhar_12",
+		"replies": [
+			{
+				"text": "Have you already found something?",
+				"nextPhraseID": "bernhar_20"
+			},
+			{
+				"text": "Ah. Interesting. Keep having fun with it. Bye.",
+				"nextPhraseID": "X"
+			}
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"arulircave_non_display",
+                "value":10
+            }
+        ],
+        "message":"Call me Bernhar. I am an explorer and try to find out something about the cave system here."
+    },
+    {
+        "id":"bernhar_16",
+		"replies": [
+			{
+				"text": "Hi Bernhar. I want to talk with you again.",
+				"nextPhraseID": "bernhar_20"
+			}
+		],
+        "message":"Oh - the wandering kid! You are still alive? How surprising!"
+    },
+    {
+        "id":"bernhar_20",
+		"replies": [
+			{
+				"text": "N",
+				"nextPhraseID": "bernhar_30"
+			}
+		],
+        "message":"Sure! I could tell you things..."
+    },
+    {
+        "id":"bernhar_30",
+		"replies": [
+			{
+				"text": "What do you mean - unprotected?",
+				"nextPhraseID": "bernhar_40"
+			},
+			{
+				"text": "I have heard this often already.",
+				"nextPhraseID": "bernhar_32"
+			}
+		],
+        "message":"Steep mountain flanks and wide branched cave passages! But beware - it is dangerous ground! You must not go unprotected!"
+    },
+    {
+        "id":"bernhar_32",
+		"replies": [
+			{
+				"text": "N",
+				"nextPhraseID": "bernhar_40"
+			}
+		],
+        "message":"You don't take me seriously. Let me tell you..."
+    },
+    {
+        "id":"bernhar_40",
+		"replies": [
+			{
+				"text": "N",
+				"nextPhraseID": "bernhar_50"
+			}
+		],
+        "message":"You risk your life here. It is not only those Arulir brutes. They are just annoying."
+    },
+    {
+        "id":"bernhar_50",
+		"replies": [
+			{
+				"text": "How did you manage yourself?",
+				"nextPhraseID": "bernhar_60"
+			}
+		],
+        "message":"Really dangerous is the ground. Deceptive and life-threatening. And there are always falling rocks from above."
+    },
+    {
+        "id":"bernhar_60",
+		"replies": [
+			{
+				"text": "N",
+				"nextPhraseID": "bernhar_70"
+			}
+		],
+        "message":"I've only been able to survive so far, because I'm wearing proper protective gear."
+    },
+    {
+        "id":"bernhar_70",
+		"replies": [
+			{
+				"text": "Great, show me please.",
+				"nextPhraseID": "S"
+			},
+			{
+				"text": "Maybe another time.",
+				"nextPhraseID": "bernhar_80"
+			}
+		],
+        "message":"I have completed my work here, so I don't need them any more. I could sell them for a good price."
+    },
+    {
+        "id":"bernhar_80",
+		"replies": [
+			{
+				"text": "OK. Let's have a look.",
+				"nextPhraseID": "S"
+			},
+			{
+				"text": "I can handle myself.",
+				"nextPhraseID": "X"
+			}
+		],
+        "message":"If you go unprotected, there will be no other time, I fear."
+    },
+    {
+        "id":"bernhar_reminder",
+		"replies": [
+			{
+				"nextPhraseID": "bernhar_reminder_10",
+				"requires":[
+					{
+						"requireType": "inventoryKeep",
+						"requireID": "arulir_cap",
+						"value": 1
+					},
+					{
+						"requireType": "wear",
+						"requireID": "arulir_cap",
+						"negate":true
+					}
+				]
+			},
+			{
+				"nextPhraseID": "bernhar_reminder_10",
+				"requires":[
+					{
+						"requireType": "inventoryKeep",
+						"requireID": "arulir_boots",
+						"value": 1
+					},
+					{
+						"requireType": "wear",
+						"requireID": "arulir_boots",
+						"negate":true
+					}
+				]
+			}
+		]
+    },
+    {
+        "switchToNPC":"bernhar",
+		"id":"bernhar_reminder_10",
+		"replies": [
+			{
+				"text": "Oh, yes. Thank you for reminding!",
+				"nextPhraseID": "X"
+			}
+		],
+        "message":"Hey kid! The protective gear is of no use, if you don't wear it!"
+    },
+    {
+		"id":"bernhar_remove",
+        "rewards":[
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"bernhar",
+                "mapName":"arulirmountain1"
+            }
+        ]
     }
 ]
