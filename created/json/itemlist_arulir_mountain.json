@@ -1,82 +1,82 @@
 [
-  {
-    "id": "crystal_blue",
-    "name": "Blue Crystals",
-    "hasManualPrice": 1,
-    "iconID": "items_misc:31",
-    "category": "gem",
-    "baseMarketCost": 5,
-    "description": "Some blue shimmering crystals."
-  },
-  {
-    "id": "crystal_red",
-    "name": "Red Crystals",
-    "hasManualPrice": 1,
-    "iconID": "items_misc:34",
-    "category": "gem",
-    "baseMarketCost": 4,
-    "description": "Some red shimmering crystals."
-  },
-  {
-    "id": "hunters_sword",
-    "name": "Hunters Sword",
-    "displaytype": "extraordinary",
-    "equipEffect": {
-      "increaseAttackDamage": {
-        "min": 2,
-        "max": 8
-      },
-      "increaseAttackCost": 4,
-      "increaseAttackChance": 25
+    {
+        "id":"crystal_blue",
+        "iconID":"items_misc:31",
+        "name":"Blue Crystals",
+        "hasManualPrice":1,
+        "baseMarketCost":5,
+        "category":"gem",
+        "description":"Some blue shimmering crystals."
     },
-    "hitEffect": {
-      "increaseCurrentAP": {
-        "min": 1,
-        "max": 1
-      }
+    {
+        "id":"crystal_red",
+        "iconID":"items_misc:34",
+        "name":"Red Crystals",
+        "hasManualPrice":1,
+        "baseMarketCost":4,
+        "category":"gem",
+        "description":"Some red shimmering crystals."
     },
-    "killEffect": {
-      "conditionsSource": [
-        {
-          "magnitude": 1,
-          "condition": "rage_minor",
-          "duration": 3,
-          "chance": 10
+    {
+        "id":"hunters_sword",
+        "iconID":"items_misc_5:42",
+        "name":"Hunters Sword",
+        "displaytype":"extraordinary",
+        "category":"lsword",
+        "description":"When venery is your game, you need a superior sword.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":2,
+                "max":8
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":25
+        },
+        "hitEffect":{
+            "increaseCurrentAP":{
+                "min":1,
+                "max":1
+            }
+        },
+        "killEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"rage_minor",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"10"
+                }
+            ]
         }
-      ]
     },
-    "iconID": "items_misc_5:42",
-    "category": "lsword",
-    "description": "Be the fastest on your venery."
-  },
-  {
-    "id": "lava_rock_hot",
-    "name": "Fierce Lava Rock",
-    "iconID": "items_misc_3:102",
-    "category": "other",
-    "description": "Burning through your clothes"
-  },
-  {
-    "id": "lava_rock_cold",
-    "name": "Cold Lava Rock",
-    "iconID": "items_misc:13",
-    "description": "A cold piece of magma",
-    "category": "other"
-  },
-  {
-	"id":"arulir_cap",
-    "hasManualPrice": 1,
-	"iconID":"items_armours:21",
-	"name":"Rockfall saving cap",
-	"baseMarketCost":80,
-	"category":"hd_cloth"
-  },
-  {
-	"id":"arulir_boots",
-    "hasManualPrice": 1,
-	"iconID":"items_armours:28",
-	"name":"Sure step boots",
-	"baseMarketCost":120,
-	"category":"feet_lthr"
-  }
+    {
+        "id":"lava_rock_hot",
+        "iconID":"items_misc_3:102",
+        "name":"Fierce Lava Rock",
+        "category":"other",
+        "description":"Burning through your clothes"
+    },
+    {
+        "id":"lava_rock_cold",
+        "iconID":"items_misc:13",
+        "name":"Cold Lava Rock",
+        "category":"other",
+        "description":"A cold piece of magma"
+    },
+    {
+        "id":"arulir_cap",
+        "iconID":"items_misc_4:4",
+        "name":"Rockfall deflecting cap",
+        "hasManualPrice":1,
+        "baseMarketCost":80,
+        "category":"hd_cloth"
+    },
+    {
+        "id":"arulir_boots",
+        "iconID":"items_armours:28",
+        "name":"Sure step boots",
+        "hasManualPrice":1,
+        "baseMarketCost":120,
+        "category":"feet_lthr"
+    }
 ]
