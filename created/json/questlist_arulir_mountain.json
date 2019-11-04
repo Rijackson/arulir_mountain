@@ -91,5 +91,42 @@
 		"logText":"Talked to Bernhar"
       }
     ]
+  },
+  {
+    "id": "mermaid_scale",
+    "name": "The silver scale",
+    "showInLog":1,
+    "stages": [
+      {
+        "progress": 10,
+		"logText":"In a clearing, you met Tjure, who desperately asked for your help. He had once found a mermaid asleep on the beach of the river. The colorful tail attracted him so much that he pulled out a dazzling scale and ran away."
+      },
+      {
+        "progress": 20,
+		"logText":"Crying and mourning, the mermaid called after him. Finally she cursed him. Since then, Tjure has left happiness. He just wanted to get rid of the dandruff. Nevertheless, he never ventured back to the vicinity of the river."
+      },
+      {
+        "progress": 30,
+		"logText":"A wise woman told Tjure that he could neither throw away nor destroy the shed. The only salvation would be if someone bought it from him. But who would ever want to incur the wrath of a mermaid?"
+      },
+      {
+        "progress": 100,
+		"logText":"As soon as you held the scale in your hands, a great sluggishness and dispair came over you."
+      },
+      {
+        "progress": 200,
+		"logText":"You put the scale on the mark on the ground."
+      },
+      {
+        "progress": 210,
+		"logText":"In gratitude resounded a beautiful song.",
+        "rewardExperience":3500,
+        "finishesQuest":1
+      },
+      {
+        "progress": 220,
+		"logText":"And you found a heavy bag of gold."
+      }
+	]
   }
 ]

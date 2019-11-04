@@ -32,5 +32,24 @@
             "increaseAttackChance":-20,
             "increaseBlockChance":-20
         }
+    },
+    {
+        "id":"mermaid_scale",
+        "iconID":"actorconditions_1:22",
+        "name":"Mermaid curse",
+        "category":"spiritual",
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":-2,
+                "max":-2
+            }
+        },
+        "abilityEffect":{
+            "increaseMaxHP":-15,
+            "increaseMaxAP":-3,
+            "increaseDamageResistance":-1,
+            "increaseAttackChance":-20,
+            "increaseBlockChance":-10
+        }
     }
 ]

@@ -1513,5 +1513,373 @@
                 "mapName":"arulirmountain1"
             }
         ]
+    },
+    {
+        "id":"tjure",
+		"replies": [
+			{
+				"nextPhraseID": "tjure_200",
+				"requires":[
+					{
+						"requireType": "questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":200
+					}
+				]
+			},
+			{
+				"nextPhraseID": "tjure_100",
+				"requires":[
+					{
+						"requireType": "questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":100
+					}
+				]
+			},
+			{
+				"nextPhraseID": "tjure_30",
+				"requires":[
+					{
+						"requireType": "questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":30
+					}
+				]
+			},
+			{
+				"nextPhraseID": "tjure_20",
+				"requires":[
+					{
+						"requireType": "questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":20
+					}
+				]
+			},
+			{
+				"nextPhraseID": "tjure_10",
+				"requires":[
+					{
+						"requireType": "questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":10
+					}
+				]
+			},
+			{
+				"nextPhraseID": "tjure_0"
+			}
+		]
+    },
+    {
+		"id":"tjure_0",
+		"message":"Oh, what a rare surprise!",
+		"replies": [
+			{
+				"text": "Who are you?",
+				"nextPhraseID": "tjure_0_10"
+			},
+			{
+				"text": "What are you doing in such a lonely place?",
+				"nextPhraseID": "tjure_0_10"
+			},
+			{
+				"text": "Eh, sorry for disturbance.",
+				"nextPhraseID": "X"
+			}
+		]
+    },
+    {
+		"id":"tjure_0_10",
+		"message":"I am Tjure of Brimhaven. I am ... was ... a successful merchand. But luck has left me.",
+		"replies": [
+			{
+				"text": "N",
+				"nextPhraseID": "tjure_0_12"
+			}
+		]
+    },
+    {
+		"id":"tjure_0_12",
+		"message":"All I can do now is hide in this lonely place, far away from any water.",
+		"replies": [
+			{
+				"text":"Aha. I won't bother you then.",
+				"nextPhraseID": "tjure_0_20"
+			},
+			{
+				"text":"Why is that so?",
+				"nextPhraseID": "tjure_0_20"
+			}
+		]
+    },
+    {
+		"id":"tjure_0_20",
+		"message":"I had once found a mermaid asleep on the beach of the river. What a beautiful sight! I could not avert my eyes!",
+		"replies": [
+			{
+				"text": "N",
+				"nextPhraseID": "tjure_0_22"
+			}
+		]
+    },
+    {
+		"id":"tjure_0_22",
+		"message":"Especially the colorful tail attracted me so much, that I did something, that I deeply regret since then.",
+		"replies": [
+			{
+				"text": "What did you do to her?",
+				"nextPhraseID": "tjure_10"
+			}
+		]
+    },
+    {
+		"id":"tjure_10",
+		"message":"I pulled out one of her shimmering, dazzling scale and ran away.",
+		"replies": [
+			{
+				"text": "No! You did what?!",
+				"nextPhraseID": "tjure_10_10"
+			}
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mermaid_scale",
+                "value":10
+            }
+        ]
+    },
+    {
+		"id":"tjure_10_10",
+		"message":"The mermaid immediately started up. But on land she had no chance to catch up with me.",
+		"replies": [
+			{
+				"text": "N",
+				"nextPhraseID": "tjure_20"
+			}
+		]
+    },
+    {
+		"id":"tjure_20",
+		"message":"Crying and mourning, the mermaid called after him. Finally, she screamed after me that I would never find peace! And that better I should never approach water again!",
+		"replies": [
+			{
+				"text": "N",
+				"nextPhraseID": "tjure_30"
+			}
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mermaid_scale",
+                "value":20
+            }
+        ]
+    },
+    {
+		"id":"tjure_30",
+		"message":"At first I was happy. But I soon realized that it all went wrong.",
+		"replies": [
+			{
+				"text": "N",
+				"nextPhraseID": "tjure_30_10"
+			}
+		]
+    },
+    {
+		"id":"tjure_30_10",
+		"message":"I couln't think of anything else but the wrath of the people of the river.",
+		"replies": [
+			{
+				"text": "N",
+				"nextPhraseID": "tjure_30_20"
+			}
+		]
+    },
+    {
+		"id":"tjure_30_20",
+		"message":"What only should I do? I tried to throw it away or give it to other people - all in vain.",
+		"replies": [
+			{
+				"text": "N",
+				"nextPhraseID": "tjure_30_30"
+			}
+		]
+    },
+    {
+		"id":"tjure_30_30",
+		"message":"A wise woman, far in the north east told me, that I have to find some good hearted man who buys it from me.",
+		"replies": [
+			{
+				"text": "Who would be that stupid?",
+				"nextPhraseID": "tjure_30_32"
+			},
+			{
+				"text": "Let me be the one to rescue you. Sell me that scale.",
+				"nextPhraseID": "tjure_30_90"
+			}
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mermaid_scale",
+                "value":30
+            }
+        ]
+    },
+    {
+		"id":"tjure_30_32",
+		"message":"I know, I know.",
+		"replies": [
+			{
+				"text": "I hope for you, that you will find someone else. Bye.",
+				"nextPhraseID": "X"
+			},
+			{
+				"text": "OK. I may be stupid, but sell me that scale.",
+				"nextPhraseID": "tjure_30_90"
+			}
+		]
+    },
+    {
+		"id":"tjure_30_90",
+		"message":"Here, take it! I have to request gold for it, otherwise it won't work. But one piece of gold should be enough.",
+		"replies": [
+			{
+				"text": "No problem, here, take the gold.",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"gold",
+                        "value":1
+                    }
+                ],
+				"nextPhraseID":"tjure_30_92"
+			},
+			{
+				"text": "Forget it.",
+				"nextPhraseID":"X"
+			}
+		]
+    },
+    {
+		"id":"tjure_30_92",
+		"message":"As soon as you held the scale in your hands, a great sluggishness and dispair came over you.",
+		"replies": [
+			{
+				"text": "I feel ... strange!",
+				"nextPhraseID":"tjure_30_94"
+			}
+		],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mermaid_scale",
+                "value":100
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"mermaid_scale",
+                "value":999
+            }
+        ]
+    },
+    {
+		"id":"tjure_30_94",
+		"message":"For a second you felt very dizzy. But you managed not to faint.",
+		"switchToNPC":"none"
+    },
+    {
+		"id":"tjure_100",
+		"message":"Thank you for your help."
+    },
+    {
+		"id":"tjure_200",
+		"message":"Oh, you look better than last time we met. Thank you for your help."
+    },
+    {
+        "id":"watermark_script",
+		"replies": [
+			{
+				"nextPhraseID":"watermark_script_210",
+				"requires":[
+					{
+						"requireType": "questLatestProgress",
+                        "requireID":"mermaid_scale",
+                        "value":210
+					}
+				]
+			},
+			{
+				"nextPhraseID":"watermark_script_100",
+				"requires":[
+					{
+						"requireType": "questLatestProgress",
+                        "requireID":"mermaid_scale",
+                        "value":100
+					}
+				]
+			}
+		]
+    },
+    {
+		"id":"watermark_script_100",
+		"message":"You put the scale on the mark on the ground. What a relief! You suddenly feel lighthearted again.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mermaid_scale",
+                "value":200
+            },
+            {
+                "rewardType":"actorCondition",
+                "rewardID":"mermaid_scale",
+                "value":-99
+            }
+        ]
+    },
+    {
+        "id":"watermark_script2",
+		"replies": [
+			{
+				"nextPhraseID":"watermark_script_200",
+				"requires":[
+					{
+						"requireType": "questLatestProgress",
+                        "requireID":"mermaid_scale",
+                        "value":200
+					}
+				]
+			}
+        ]
+    },
+    {
+		"id":"watermark_script_200",
+		"message":"In gratitude resounded a beautiful song. You never heard such wonderful sound before.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mermaid_scale",
+                "value":210
+            }
+        ]
+    },
+    {
+		"id":"watermark_script_210",
+		"message":"You found a heavy bag of gold. 1000 shining pieces of gold!",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mermaid_scale",
+                "value":220
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"gold",
+                "value":1000
+            }
+        ]
     }
 ]

@@ -224,5 +224,19 @@
     "monsterClass":"humanoid",
     "phraseID":"bernhar",
     "droplistID":"bernhar_shop"
+  },
+  {
+    "id":"tjure",
+    "name":"Tjure",
+    "iconID":"monsters_ld1:19",
+    "unique":1,
+    "monsterClass":"humanoid",
+    "phraseID":"tjure"
+  },
+  {
+    "id":"river_mermaid",
+    "name":"Mermaid",
+    "iconID":"monsters_rltiles2:5",
+    "monsterClass":"humanoid"
   }
 ]
