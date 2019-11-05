@@ -185,22 +185,22 @@
  </tileset>
  <layer name="Ground" width="30" height="9">
   <data encoding="base64" compression="zlib">
-   eJydksENgCAMRQk39r+ygjZuoDfOuoKDCIEmTdNC6+FFhPBfG1pSCGVBjp39J+fgqhypg5maczNm5yjXB5V78BAvv4t72rnErJ7mfQeYyXN5Pl97APKlPks/dH/Wr3QHyHrlnb2X1QmCV+pZcnpnieZ7vdqc8Bq0mV3VaPF654j3Rv/5nCAfm325xw==
+   eJydksENgCAMRQk39r+ygjZuoDfOuoKDiIEmzU+BwuFFxPAftU3BuTQg+sK+yFm5MkcocGbLuRmzo9fvR5m78ggvnuW91neN3n1+71vhTMzFfFzPQOIpfZZ65H6vXu0MifXI2+uX1UmKV6t5dUa1HhD4LF7rnKz22+KdzcV/Kt9xTpgPm+W5xw==
   </data>
  </layer>
  <layer name="Objects" width="30" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYMAPZjPhl38ohCm2Vhi3+juSqPy5UPOfiTEwvEDCHkhm7BFEsLmQxNHdNheLW5nEIPQboL1vJRHqnkDd/UMMFUcIYzcbF3gshN1uIaBZa4BizwRRxWHqooH2xABxrDDErl1A9dtIxLvFUM0+BrRLSQxCowNc5p8WI96vMPdvR7P3MJD/F2onLJxh/oSpBYX3ZyA+jZReDiOxn2JJR8h2wsxKFECIFwHFbwgi7ASxQWpB+BRQ7U0g/i0KSVsvxSD2HcFiDywucAGYWX9EIfxkHOGFnga+AfX8hLoBBkB5oxNN3RMkN8HsAIXpYTEEGwQuCUHYxwRR0zMMzGFCYGS3XJZEtXMPlvTxCWj2dSR3yAPZCmhpGzmvAwDgMWEF
+   eJxjYMAPZjPhl38ohCm2Vhi3+juSqPy5UPOfiTEwvEDCHkhm7BFEsLmQxNHdNheLW5nEIPQboL1vJRHqnkDd/UMMFUcIYzcbF3gshN1uIaBZa4BizwRRxWHqooH2xABxrDDErl1A9dtIxLvFUM0+BrRLSQxCowNc5p8WI96vMPdvR7P3MJD/F2onLJxh/gSpfQzki0DD9TRSejmMxH6KJR0h2wkzK1EAIV4EFL8hiLATxAapBeFTQLU3gfi3KCRtvRSD2HcEiz2wuMAFYGb9EYXwk3GEF3IauAq05xtQz0+oG2AAlDc60fQ/QXITzA5QmB4WQ7BB4JIQhH1MEDU9w8AcJgRGdstlSVQ792BJH5+AZl9Hcoc8kK2AlraR8zoAKrthFA==
   </data>
  </layer>
  <layer name="Above" width="30" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYCANvBYiUQMaOCzGwHBXErf8TUEIfYVIe57hUXdZDMG+BGVfRVM/lwnBns3EgAFukuHfw1C7HhOp9zKe8CAENksi/HkYyb93JPGHM4oZQHduIeDWl2jyhyUR9sHCkJCdsPCF2YctvPEBbP5EjmNsgEcYuxtwuQ0EkNMEyHyYfZeQ7IKJ4fKzjDCmGAygp0FkcBkpTGHumIvDbdQE6GFKKFwB6BcsaA==
+   eJxjYCANvBYiUQMaOCzGwHBXErf8TUEIfYVIe57hUXdZDMG+BGVfRVM/lwnBns3EgAFukuHfw1C7HhOp9zKe8CAENksi/HkYyb93JLGHM4swFjOA7txCwK0v0eQPSyLsg4UhLjtBADlsYfZhC298AJs/keOYGIDLTmRx5DQBMh9m3yUku2Bi+PyMC6CnQWRwGSlMYe6Yi8Nt1AToYUooXAHMTiwx
   </data>
  </layer>
  <layer name="Walkable" width="30" height="9" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJEGGBtAFqeFPbj4lJiNyy/o9qD7DZdeUsKLGIDNXnLMoCRccMUrMXaQ4kZc9qK7C1/6IzVOcKknxgx8biDkf1xuoUaaJsY+QhgAyXV1Yg==
+   eJzbKMbAsJEGGBtAFqeFPbj4lJiNyy/o9qD7DZdeUsKLGIDNXnLMoCRccMUrMeaT6k9c4YyNjcufxPof3T50ewmZgc8NhPyPyy3USNPE2EcIAwA1SXYp
   </data>
  </layer>
  <objectgroup name="Mapevents" visible="0">
@@ -217,7 +217,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="4" name="gornaud_1" type="spawn" x="32" y="96" width="96" height="128">
    <properties>
     <property name="quantity" value="2"/>

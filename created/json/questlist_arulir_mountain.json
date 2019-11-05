@@ -107,7 +107,13 @@
       },
       {
         "progress": 30,
-		"logText":"A wise woman told Tjure that he could neither throw away nor destroy the shed. The only salvation would be if someone bought it from him. But who would ever want to incur the wrath of a mermaid?"
+		"logText":"A wise woman told Tjure that he could neither throw away nor destroy the scale. The only salvation would be to give it back or to have someone buy it from him. But who would ever want to incur the wrath of a mermaid?"
+      },
+      {
+        "progress": 90,
+		"logText":"You decided not to help Tjure.",
+        "rewardExperience":500,
+        "finishesQuest":1
       },
       {
         "progress": 100,

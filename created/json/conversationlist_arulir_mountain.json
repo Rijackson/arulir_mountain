@@ -1538,6 +1538,16 @@
 				]
 			},
 			{
+				"nextPhraseID": "tjure_90",
+				"requires":[
+					{
+						"requireType": "questProgress",
+                        "requireID":"mermaid_scale",
+                        "value":90
+					}
+				]
+			},
+			{
 				"nextPhraseID": "tjure_30",
 				"requires":[
 					{
@@ -1680,7 +1690,7 @@
     },
     {
 		"id":"tjure_30",
-		"message":"At first I was happy. But I soon realized that it all went wrong.",
+		"message":"At first I was happy with my shimmering scale. But I soon realized that it all went wrong.",
 		"replies": [
 			{
 				"text": "N",
@@ -1710,11 +1720,31 @@
     },
     {
 		"id":"tjure_30_30",
-		"message":"A wise woman, far in the north east told me, that I have to find some good hearted man who buys it from me.",
+		"message":"I traveled all over the country to find someone for help. A wise woman, far in the north east, listened to my story. She advised me to return the scale to the mermaid. This would break the curse.",
+		"replies": [
+			{
+				"text": "N",
+				"nextPhraseID": "tjure_30_32"
+			}
+		]
+    },
+    {
+		"id":"tjure_30_32",
+		"message":"I do not dare to do this.",
+		"replies": [
+			{
+				"text": "N",
+				"nextPhraseID": "tjure_30_34"
+			}
+		]
+    },
+    {
+		"id":"tjure_30_34",
+		"message":"Otherwise, she told me, my only chance was to find some kind-hearted man to buy it from me.",
 		"replies": [
 			{
 				"text": "Who would be that stupid?",
-				"nextPhraseID": "tjure_30_32"
+				"nextPhraseID": "tjure_30_40"
 			},
 			{
 				"text": "Let me be the one to rescue you. Sell me that scale.",
@@ -1730,12 +1760,26 @@
         ]
     },
     {
-		"id":"tjure_30_32",
-		"message":"I know, I know.",
+		"id":"tjure_30_40",
+		"message":"I know, I know. Everybody ran away, when they heard my story.",
 		"replies": [
 			{
-				"text": "I hope for you, that you will find someone else. Bye.",
-				"nextPhraseID": "X"
+				"text": "That's too bad. I hope that you will find someone else. Bye.",
+				"nextPhraseID": "tjure_30_50"
+			},
+			{
+				"text": "Not me. I will buy that scale.",
+				"nextPhraseID": "tjure_30_90"
+			}
+		]
+    },
+    {
+		"id":"tjure_30_50",
+		"message":"So you really won't help me? Leave me to my misery?",
+		"replies": [
+			{
+				"text": "Sorry, I can't do it. Bye.",
+				"nextPhraseID": "tjure_90"
 			},
 			{
 				"text": "OK. I may be stupid, but sell me that scale.",
@@ -1766,6 +1810,7 @@
     },
     {
 		"id":"tjure_30_92",
+		"switchToNPC":"none",
 		"message":"As soon as you held the scale in your hands, a great sluggishness and dispair came over you.",
 		"replies": [
 			{
@@ -1788,11 +1833,28 @@
     },
     {
 		"id":"tjure_30_94",
-		"message":"For a second you felt very dizzy. But you managed not to faint.",
-		"switchToNPC":"none"
+		"message":"For a second you felt very dizzy. At least you managed not to faint. As from far away you hear a voice:",
+		"replies": [
+			{
+				"text": "N",
+				"nextPhraseID":"tjure_100"
+			}
+		]
+    },
+    {
+		"id":"tjure_90",
+		"message":"Sigh. You were my last hope. Leave me now.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"mermaid_scale",
+                "value":90
+            }
+        ]
     },
     {
 		"id":"tjure_100",
+		"switchToNPC":"tjure",
 		"message":"Thank you for your help."
     },
     {
@@ -1826,7 +1888,21 @@
     },
     {
 		"id":"watermark_script_100",
-		"message":"You put the scale on the mark on the ground. What a relief! You suddenly feel lighthearted again.",
+		"message":"This seems to be a very strange place. Maybe even dangerous.",
+		"replies": [
+			{
+				"text":"* Put the scale on the ground *",
+				"nextPhraseID":"watermark_script_100_10"
+			},
+			{
+				"text":"* Run for your life *",
+				"nextPhraseID":"X"
+			}
+        ]
+    },
+    {
+		"id":"watermark_script_100_10",
+		"message":"What a relief! You suddenly feel lighthearted again.",
         "rewards":[
             {
                 "rewardType":"questProgress",
@@ -1857,7 +1933,17 @@
     },
     {
 		"id":"watermark_script_200",
-		"message":"In gratitude resounded a beautiful song. You never heard such wonderful sound before.",
+		"message":"Sudenly you hear someone singing.",
+		"replies": [
+			{
+				"text":"N",
+				"nextPhraseID":"watermark_script_200_10"
+			}
+        ]
+    },
+    {
+		"id":"watermark_script_200_10",
+		"message":"You never heard such beautiful sound before.",
         "rewards":[
             {
                 "rewardType":"questProgress",

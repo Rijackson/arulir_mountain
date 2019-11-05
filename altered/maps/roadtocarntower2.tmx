@@ -184,7 +184,7 @@
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
  <tileset firstgid="7577" name="map_guynmart" tilewidth="32" tileheight="32" tilecount="128" columns="16">
-  <image source="../../../../../../NutAndor/andors-trail/AndorsTrail/res/drawable/map_guynmart.png" width="512" height="256"/>
+  <image source="../drawable/map_guynmart.png" width="512" height="256"/>
  </tileset>
  <layer name="Ground" width="30" height="26">
   <data encoding="base64" compression="zlib">
@@ -208,7 +208,7 @@
  </layer>
  <layer name="Above_1" width="30" height="26" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzt0bENwCAQQ1GLjiGYPBmICZgHUVhxTmmdyk9CCJqvAyAiIiICWONZs7/P7m7t6dmFDe565+zqnHVep9OoM//xv+xyHe4mG1/v7KbvrM2rAXfz9x023H8wNA==
+   eJzt0bEJACEQRNHBzCKs3CvICq4e2WBwb7l0jOaBiCafVcDMzMwMeMdZq3/P6m7t5bMKG9zznbKb56zzKkWjznzjf9nlCuomG7ffOPy9c5gNeJq+r7AB228wNA==
   </data>
  </layer>
  <layer name="Walkable" width="30" height="26" visible="0">
@@ -276,7 +276,7 @@
     <property name="spawngroup" value="rivertroll"/>
    </properties>
   </object>
-  <object id="14" name="river_mermaid" type="spawn" x="224" y="544" width="256" height="256">
+  <object id="14" name="river_mermaid" type="spawn" x="256" y="544" width="224" height="256">
    <properties>
     <property name="spawngroup" value="river_mermaid"/>
    </properties>
