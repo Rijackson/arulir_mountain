@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="21" height="29" tilewidth="32" tileheight="32" infinite="0" nextobjectid="11">
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="21" height="29" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="11">
  <properties>
   <property name="outdoors" value="1"/>
  </properties>
@@ -186,27 +186,27 @@
  <tileset firstgid="7577" name="map_trail_1" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../../created/drawable/map_trail_1.png" width="512" height="256"/>
  </tileset>
- <layer name="Ground" width="21" height="29">
+ <layer id="1" name="Ground" width="21" height="29">
   <data encoding="base64" compression="zlib">
    eJzt1D0OgCAMBWDC5v1Xr4CJJ8CRFc/gQUwjREJaflpIHBze+gXoK25RylWyEzFaqQ1JzftNPJZpUh7Ea/ysXK90f4nXY7Z6rWaPR81JasKccldqYvOXvif2rl82R3Rp1W9SzzBNbMclJvUXxdgJpmf0E85xhFBu72zgHGdIy//Z2ptLP8H2kmuW9nKEmc8t79IIM+0S14tdwLokMam/TmLm959h3pguw7E=
   </data>
  </layer>
- <layer name="Objects" width="21" height="29">
+ <layer id="2" name="Objects" width="21" height="29">
   <data encoding="base64" compression="zlib">
-   eJydlk1Kw0AUx4fsFBSmhcCs9C4ewSN4AI/gLXThXg/gEVxEqDsh1WRXoSbNwp3gznkkj7z+ffNBHwzJtHm//Od9tcbErSqNeSnn/cnCmFO/GpdwzGT2nrNz85VsbQ9ndsKXtUrbwD5XZ21nbasD9JFtPWuAeMasTryHeY1fv+UYw0HkJeWf4rG1wP0s5vunSB0gj2LX2/2cD4r/c4CJvHc4H9dNK2opZZWMn/CXuiQP36nVE/YMn7OFq9Sco3NHGpW8aFwymSfNfjyrFVpDPIwnc2+Xxtwtw+fvwR/3bBQDzvmD5z1GmFIn9zfzuC9pBnz7de91nvnvzxfjfY5OqY80aX4xY+ar+89tJt4FMFM1oNUTzszLIr/f5Rzien5zo2ayjwjnSImHNjf4TF8ZmlwxPi/rtQJeBxw5I64zc8Rx5PPVSr93k44bv44zuJgbMsw7Wz3VJfblBuqTmVu7XxuhPudnQv0e+t0J9Xkv+ohidRXoHZkfrd5RJxrr5pqSsezg3Dg/YvNJxkLLD/utbJxP/arFFJmpOYyf43+nP9dz/Dw=
+   eJydlr1KxEAQx5d0Cgp7B4Gt9F2sraytfCct7PUBfASLCGcn5DTpTjiTS2En2LlDMmTu7+wHN7Ake5f55b/zdWdM3KrSmJdy3p8sjDn1q3EJx0xm7zk7N1/J1vZwZid8Wau0DexzddZ21rY6QB/Z1rMGiGfM6sR7mNf49VuOMRxEXlL+KR5bC9zPYr5/itQB8ih2vd3P+aD4PweYyHuH83HdtKKWUlbJ+Al/qUvy8J1aPWHP8DlbuErNOTp3pFHJi8Ylk3nS7MezWqE1xMN4Mvd2aczdMnz+Hvxxz0Yx4Jw/eN5jhCl1cn8zj/uSZsC3X/de55n//nwx3ufolPpIk+YXM2a+uv/cZuJdADNVA1o94cy8KvL7Xc4hruc3N2om+4hwjpR4aHODz/SVockV4/OyXivgdcCRM+IyM0ccRz5frfR7N+m49us4g4u5IcO8s9VTXWJfbqA+mbm1+7UR6nN+JtTvod+dUJ/3oo8oVjeB3pH50eoddaKxbq4pGcsOzo3zIzafZCy0/LDfysb51K9aTJGZmsP4Of53+gMnm/v4
   </data>
  </layer>
- <layer name="Above" width="21" height="29">
+ <layer id="3" name="Above" width="21" height="29">
   <data encoding="base64" compression="zlib">
    eJxjYCAe3JRkYLglCaFHAWUAFpa0ANQ0FzmuB6N70cOR0rSJ7l9apnVK/U1Nc0nx5+YBzP+44ocSN+0ZguXZUHIzNdMLKeXmRqC6TQTUklq+HQSqOUSif6hRbmLLn+Sau4fOdTgsnyLTxAJqu5OS8h1bOiZUDhMy/zBQHgCpsDGd
   </data>
  </layer>
- <layer name="Walkable" width="21" height="29">
+ <layer id="4" name="Walkable" width="21" height="29">
   <data encoding="base64" compression="zlib">
    eJytk8ENwDAIAzNF918hG/YbVRD7TJEq9WEudgj7WWuL7yxHp3hEmzBVz4TZ9U2ZVW96R1Nm5ytlJjlvTFWnzmG6eYnPW16loT7/us/0nXVasgdkb6Ya6jOZq8ugM1UznDK//4SpijIdlvLczabSVGyyP04Od6ZdZnUu1ZN3Qfw7WRTTYXdnJbkTJmVV/S9yQyUf
   </data>
  </layer>
- <objectgroup name="Mapevents">
+ <objectgroup id="5" name="Mapevents">
   <object id="8" name="south2" type="mapchange" x="576" y="896" width="64" height="32">
    <properties>
     <property name="map" value="mountainlake5"/>
@@ -226,7 +226,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup id="6" name="Spawn">
   <object id="3" name="maonit_2" type="spawn" x="64" y="608" width="224" height="256">
    <properties>
     <property name="spawngroup" value="maonit_2"/>
@@ -254,7 +254,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Spawn2" visible="0">
+ <objectgroup id="7" name="Spawn2" visible="0">
   <object id="7" name="mbrute_2" type="spawn" x="32" y="64" width="512" height="800">
    <properties>
     <property name="quantity" value="3"/>
@@ -262,7 +262,7 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys">
+ <objectgroup id="8" name="Keys" visible="0">
   <object id="9" name="andor:1c" type="key" x="416" y="576" width="128" height="128">
    <properties>
     <property name="phrase" value="do_nothing_but_leave"/>
