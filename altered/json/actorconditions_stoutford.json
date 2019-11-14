@@ -1,0 +1,14 @@
+[
+    {
+        "id":"curse_undead",
+        "iconID":"actorconditions_1:83",
+        "name":"Curse of the Undead",
+        "category":"spiritual",
+        "roundEffect":{
+            "increaseCurrentHP":{
+                "min":-1,
+                "max":-2
+            }
+        }
+    }
+]
