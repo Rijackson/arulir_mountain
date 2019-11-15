@@ -1712,7 +1712,7 @@
     },
     {
         "id":"tjure_30",
-        "message":"At first I was happy with my shimmering scale. But I soon realized that everything in my life went wrong.",
+        "message":"At first I was happy with my shimmering scale. But I soon realized that everything in my life was going wrong.",
         "replies":[
             {
                 "text":"N",
@@ -1732,7 +1732,7 @@
     },
     {
         "id":"tjure_30_20",
-        "message":"What only could I do? I tried to throw it away or give it to other people - all in vain.",
+        "message":"What could I do? I tried to throw it away or give it to other people - all in vain.",
         "replies":[
             {
                 "text":"N",
@@ -1742,7 +1742,7 @@
     },
     {
         "id":"tjure_30_30",
-        "message":"I traveled all over Dhayavar to find someone to help me. Finally, a wise woman, far in the north east, listened to my story. She advised me to return the scale to the mermaid. This would break the curse.",
+        "message":"I traveled all over Dhayavar to find someone to help me. Finally, a wise woman, far in the northeast, listened to my story. She advised me to return the scale to the mermaid. This would break the curse.",
         "replies":[
             {
                 "text":"N",
@@ -1955,7 +1955,7 @@
     },
     {
         "id":"watermark_script_200",
-        "message":"Suddenly you hear someone singing.",
+        "message":"Suddenly, you hear someone singing.",
         "replies":[
             {
                 "text":"N",
