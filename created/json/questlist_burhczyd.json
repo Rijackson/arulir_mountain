@@ -7,7 +7,8 @@
             {
                 "progress":10,
                 "logText":"You met Burhczyd afgz Dtaloumiye, a likable young man, in a tavern. He wanted to see the world and followed your advice to travel as a trader from city to city.",
-                "rewardExperience":20
+                "rewardExperience":20,
+                "finishesQuest":1
             },
             {
                 "progress":20,
@@ -54,7 +55,7 @@
     {
         "id":"quest_burhczyd_nd",
         "name":"Young merchant Non-displayed",
-        "showInLog":1,
+        "showInLog":0,
         "stages":[
             {
                 "progress":60,

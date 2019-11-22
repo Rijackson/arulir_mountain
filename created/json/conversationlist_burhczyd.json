@@ -714,13 +714,49 @@
 	},
 	{ "id":"burhczydx_9a_8",
 	  "message":"That's what I wanted to hear.", 
-      "replies":[{ "nextPhraseID":"burhczydx_9a_9", "text":"And you are naughty on top of that." }]
+      "replies":[{ "nextPhraseID":"burhczydx_9a_9", 
+				   "text":"And you are naughty on top of that." },
+				 { "nextPhraseID":"burhczydx_9a_8a", 
+				   "requires":[{ "requireType":"questProgress", "requireID":"Thieves02", "value":2 }],
+				   "text":"I don't suppose you are a member of the Thieves guild? I never heard of you." }]
+	},
+	{ "id":"burhczydx_9a_8a",
+	  "message":"You talk of Unmar and his little gang? Are you also no one and nobody has seen you?", 
+      "replies":[{ "nextPhraseID":"burhczydx_9a_8b", "text":"Yes." },
+				 { "nextPhraseID":"burhczydx_9a_8b", "text":"No - what do you mean?" },
+				 { "nextPhraseID":"burhczydx_9a_8b", "text":"How do you ..." }]
+	},
+	{ "id":"burhczydx_9a_8b",
+	  "message":"Don't look so irritated. Of course I know such internals. But no, I am no member of the guild. I prefer to be independent.", 
+      "replies":[{ "nextPhraseID":"burhczydx_9a_8c", "text":"You ... you would fit perfectly." }]
+	},
+	{ "id":"burhczydx_9a_8c",
+	  "message":"Honestly, I don't even know if this job is the right thing for me.", 
+      "replies":[{ "nextPhraseID":"burhczydx_9a_9", "text":"We'll see." },
+				 { "nextPhraseID":"burhczydx_9a_8d", "text":"By the way - did you meet my brother Andor on your journeys?" }]
+	},
+	{ "id":"burhczydx_9a_8d",
+	  "message":"Sure. I even trailed him for some time, because he had shown an interesting behaviour.", 
+      "replies":[{ "nextPhraseID":"burhczydx_9a_8e", "text":"Interesting? Or let's say strange? What did he do?" }]
+	},
+	{ "id":"burhczydx_9a_8e",
+	  "message":"Dz dz dz, I won't tell you of course.", 
+      "replies":[{ "nextPhraseID":"burhczydx_9a_8f", "text":"N" }]
+	},
+	{ "id":"burhczydx_9a_8f",
+	  "message":"But here, take this little thing that I 'borrowed' from him.", 
+      "replies":[{ "nextPhraseID":"burhczydx_9a_8g", "text":"A stuffed rat? Urgh. I will give it back to him as soon as possible." }],
+	  "rewards":[{ "rewardType":"giveItem", "rewardID":"stuffed_rat", "value":1 }]
+	},
+	{ "id":"burhczydx_9a_8g",
+	  "message":"Well, it's time to say goodbye. Farewell now.", 
+      "replies":[{ "nextPhraseID":"burhczydx_9a_9", "text":"Farewell." }]
 	},
 	{ "id":"burhczydx_9a_9",
 	  "rewards":[{ "rewardType":"questProgress", "rewardID":"quest_burhczyd", "value":90 }],
       "replies":[{ "nextPhraseID":"burhczydx_xa" }]
 	},
 	{ "id":"burhczydx_9e",
-	  "message":"As soon as I know what I'm going to do next, I'll leave." 
+	  "message":"Before I leave, I have to do some business here." 
 	}
 ]
