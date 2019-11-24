@@ -1362,7 +1362,7 @@
     },
     {
         "id":"burhczydx_1e",
-        "message":"I am still thinking about how to call my company. As soon as I have a name, I start."
+        "message":"I am still thinking about what to call my company. As soon as I have a name, I'll start."
     },
     {
         "id":"burhczydx_2a",
@@ -1853,7 +1853,7 @@
     },
     {
         "id":"burhczydx_5e",
-        "message":"Before I leave, we drink to a good start."
+        "message":"Before I leave, we should drink to a good start."
     },
     {
         "id":"burhczydx_6a",
@@ -1938,17 +1938,17 @@
         "message":"Sigh. My mother always loved my music.",
         "replies":[
             {
-                "text":"Your lute game is actually very nice. Maybe just try it without singing.",
+                "text":"Your lute skills are actually quite good. Maybe just try it without singing.",
                 "nextPhraseID":"burhczydx_6a_8"
             }
         ]
     },
     {
         "id":"burhczydx_6a_8",
-        "message":"Well, I will try that. But better not here. The landlord still looks at me suspiciously.",
+        "message":"OK, I will try that. But I think it would be better if it were not here. The landlord is still looking at me suspiciously.",
         "replies":[
             {
-                "text":"That will be great!",
+                "text":"That would be good!",
                 "nextPhraseID":"burhczydx_6a_9"
             }
         ]
@@ -1970,7 +1970,7 @@
     },
     {
         "id":"burhczydx_6e",
-        "message":"The landlord is still watching me - I better not move."
+        "message":"The landlord is still watching me - I had better not move."
     },
     {
         "id":"burhczydx_7a",
@@ -1997,14 +1997,14 @@
         "message":"Look here, my lute. The best instrument in the country. And I'm not allowed to play here.",
         "replies":[
             {
-                "text":"Why is that?",
+                "text":"Why not?",
                 "nextPhraseID":"burhczydx_7a_4"
             }
         ]
     },
     {
         "id":"burhczydx_7a_4",
-        "message":"I played so lovely and charmingly, that the guests forgot everything around them.",
+        "message":"I played so well and charmingly, that the guests forgot everything around them.",
         "replies":[
             {
                 "text":"But that is great!",
@@ -2034,7 +2034,7 @@
     },
     {
         "id":"burhczydx_7a_7",
-        "message":"Now I have to think again what to do next.",
+        "message":"Now I have to think again about what to do next.",
         "replies":[
             {
                 "text":"I am sure you will come up with something.",
@@ -2066,14 +2066,14 @@
         "message":"Hi $playername.",
         "replies":[
             {
-                "text":"Hi Burhczyd. You remember my name?",
+                "text":"Hi Burhczyd. You remembered my name!",
                 "nextPhraseID":"burhczydx_8a_2"
             }
         ]
     },
     {
         "id":"burhczydx_8a_2",
-        "message":"Sure I do. And I also have learned a new profession. I am already rather good.",
+        "message":"Sure I did. And I also have learned a new profession. I am already rather good.",
         "replies":[
             {
                 "text":"Great to hear! Tell me more.",
@@ -2086,24 +2086,24 @@
         "message":"I talk to people in places like this. Taverns and such.",
         "replies":[
             {
-                "text":"Yes. And further?",
+                "text":"Yes. And...?",
                 "nextPhraseID":"burhczydx_8a_4"
             }
         ]
     },
     {
         "id":"burhczydx_8a_4",
-        "message":"We talk about everything, the world, magic rings, dragons, everything. We are becoming more and more familiar.",
+        "message":"We talk about everything; the world, magic rings, dragons, everything. We become more and more familiar.",
         "replies":[
             {
-                "text":"And by that you get a beer or two?",
+                "text":"And by doing that you get a beer or two?",
                 "nextPhraseID":"burhczydx_8a_5"
             }
         ]
     },
     {
         "id":"burhczydx_8a_5",
-        "message":"Hahaha. Much better. People start to trust me. A great feeling.",
+        "message":"Ha ha ha. Much better. People start to trust me. A great feeling.",
         "replies":[
             {
                 "text":"N",
@@ -2298,7 +2298,7 @@
     },
     {
         "id":"burhczydx_8a_8",
-        "message":"I am finished here for now. As soon as the moment fits, I will disappear.",
+        "message":"I am finished here for now. As soon as the moment is right, I will disappear.",
         "replies":[
             {
                 "text":"I am still surprised.",
@@ -2323,7 +2323,7 @@
     },
     {
         "id":"burhczydx_8e",
-        "message":"As soon as the moment fits, I will disappear."
+        "message":"As soon as the moment is right, I will go."
     },
     {
         "id":"burhczydx_9a",
@@ -2340,14 +2340,14 @@
         "message":"I have a bad conscience.",
         "replies":[
             {
-                "text":"Why? Did I do something wrong?",
+                "text":"Why? Did you do something wrong?",
                 "nextPhraseID":"burhczydx_9a_3"
             }
         ]
     },
     {
         "id":"burhczydx_9a_3",
-        "message":"No, but I did something very wrong.",
+        "message":"Yes, I did something very wrong.",
         "replies":[
             {
                 "text":"N",
@@ -2367,7 +2367,7 @@
     },
     {
         "id":"burhczydx_9a_5",
-        "message":"I 'borrowed' some things of you the last time we met.",
+        "message":"I 'borrowed' some things from you the last time we met.",
         "replies":[
             {
                 "text":"Did you? I can't recall.",
@@ -2420,7 +2420,7 @@
     },
     {
         "id":"burhczydx_9a_6a",
-        "message":"Oh, it were just a few triffles, nothing important. Here you have them all back again.",
+        "message":"Oh, it was just a few trifles, nothing important. Here you go, have them all back again.",
         "replies":[
             {
                 "text":"Hmmm ...",
@@ -2448,7 +2448,7 @@
     },
     {
         "id":"burhczydx_9a_6_81a",
-        "message":"First of all here you have back your 100 pieces of gold.",
+        "message":"First of all, you can have back your 100 pieces of gold.",
         "replies":[
             {
                 "text":"How did you ...?",
@@ -2571,7 +2571,7 @@
         "message":"Then we have a ruby gem - not of much worth really.",
         "replies":[
             {
-                "text":"How could you dare?",
+                "text":"How dare you do that?",
                 "nextPhraseID":"burhczydx_9a_6_85"
             }
         ],
@@ -2643,7 +2643,7 @@
         "message":"That's what I wanted to hear.",
         "replies":[
             {
-                "text":"And you are naughty on top of that.",
+                "text":"And you are naughty in addition to that.",
                 "nextPhraseID":"burhczydx_9a_9"
             },
             {
@@ -2765,6 +2765,6 @@
     },
     {
         "id":"burhczydx_9e",
-        "message":"Before I leave, I have to do some business here."
+        "message":"Before I leave, I have some business to do here."
     }
 ]

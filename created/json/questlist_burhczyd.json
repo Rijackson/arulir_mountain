@@ -22,7 +22,7 @@
             },
             {
                 "progress":40,
-                "logText":"Another place, another tavern, Burhczyd again sitting there. He did get a shipment from Remgard of almost fresh fish, but nobody wanted to buy it. You bought the entire cargo and got disposed of it.",
+                "logText":"Another place, another tavern, Burhczyd again sitting there. He did get a shipment from Remgard of almost fresh fish, but nobody wanted to buy it. You bought the entire cargo and got it disposed of.",
                 "rewardExperience":200
             },
             {
@@ -32,7 +32,7 @@
             },
             {
                 "progress":60,
-                "logText":"In a tavern a bard sang in a high, shrill voice. It's an old acquaintance - Burhczyd. His singing was incredible. Maybe he should just play his instrument without singing?",
+                "logText":"In a tavern a bard sang in a high, shrill voice. It's an old acquaintance - Burhczyd. His singing was incredibly bad. Maybe he should just play his instrument without singing?",
                 "rewardExperience":1000
             },
             {
@@ -42,7 +42,7 @@
             },
             {
                 "progress":80,
-                "logText":"Again you met him in a tavern. He told you that he had become a master thief.",
+                "logText":"Again you met  Burhczyd in a tavern. He told you that he had become a master thief.",
                 "rewardExperience":5000
             },
             {
@@ -155,5 +155,4 @@
             }
         ]
     }
-
 ]
