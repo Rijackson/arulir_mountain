@@ -1989,5 +1989,38 @@
                 "value":1000
             }
         ]
+    },
+    {
+        "id":"blackwater_mountain5a_00",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"blackwater_mountain5a_01",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"misc_nondisplay ",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"blackwater_mountain5a_01",
+        "message":"You have found a small, shiny, metal bar. ",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"silver_bar",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"misc_nondisplay ",
+                "value":10
+            }
+        ]
     }
 ]

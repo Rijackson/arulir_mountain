@@ -140,5 +140,15 @@
                 "logText":"You found a heavy bag of gold."
             }
         ]
+    },
+    {
+        "id":"misc_nondisplay ",
+        "name":"misc_nondisplay ",
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Found silver bar at bwm"
+            }
+        ]
     }
 ]

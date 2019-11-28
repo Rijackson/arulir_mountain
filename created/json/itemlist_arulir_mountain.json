@@ -78,5 +78,15 @@
         "hasManualPrice":1,
         "baseMarketCost":120,
         "category":"feet_lthr"
+    },
+    {
+        "id":"silver_bar",
+        "iconID":"items_misc:8",
+        "name":"Silver bar",
+        "displaytype":"ordinary",
+        "hasManualPrice":1,
+        "baseMarketCost":319,
+        "category":"gem",
+        "description":"A small bar made of silver."
     }
 ]
