@@ -136,7 +136,7 @@
             "max":20
         },
         "spawnGroup":"arulir_4",
-        "droplistID":"arulir",
+        "droplistID":"arulir_demonic",
         "attackCost":5,
         "attackChance":110,
         "criticalSkill":50,
@@ -246,6 +246,7 @@
         "name":"Arulir Pack Leader",
         "iconID":"monsters_arulirs:8",
         "maxHP":1000,
+        "unique":1,
         "monsterClass":"giant",
         "attackDamage":{
             "min":10,

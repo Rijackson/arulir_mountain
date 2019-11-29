@@ -88,5 +88,33 @@
         "baseMarketCost":319,
         "category":"gem",
         "description":"A small bar made of silver."
+    },
+    {
+        "id":"flail_giant",
+        "iconID":"items_misc_6:16",
+        "name":"Giant's flail",
+        "displaytype":"extraordinary",
+        "category":"mace",
+        "description":"This is a very heavy weapon!",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":11,
+                "max":40
+            },
+            "increaseAttackCost":14,
+            "increaseAttackChance":20,
+            "increaseCriticalSkill":5,
+            "setCriticalMultiplier":3.0
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"dazed",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"15"
+                }
+            ]
+        }
     }
 ]
