@@ -1668,7 +1668,7 @@
     },
     {
         "id":"tjure_10",
-        "message":"I pulled out one of her shimmering, dazzling, scales, and ran away.",
+        "message":"I pulled out one of her shimmering, dazzling scales, and ran away.",
         "replies":[
             {
                 "text":"No! You really did that?",
@@ -1695,7 +1695,7 @@
     },
     {
         "id":"tjure_20",
-        "message":"Crying and sobbing, the mermaid called after me. Finally, she screamed at me that I would never find peace, and that it would be better if I never approach water again!",
+        "message":"Crying and sobbing, the mermaid called after me. Finally, she screamed at me that I would never find peace, and that I'd rather not approach water ever again!",
         "replies":[
             {
                 "text":"N",
@@ -1804,6 +1804,10 @@
                 "nextPhraseID":"tjure_90"
             },
             {
+                "text":"I have to think about it.",
+                "nextPhraseID":"X"
+            },
+            {
                 "text":"OK. maybe I am stupid, but sell me the scale.",
                 "nextPhraseID":"tjure_30_90"
             }
@@ -1855,7 +1859,7 @@
     },
     {
         "id":"tjure_30_94",
-        "message":"(For a second you feel very dizzy. At least you manage not to faint. As from afar you hear a voice:)",
+        "message":"(For a second you feel very dizzy. At least you manage not to faint. As from afar you hear a voice.)",
         "replies":[
             {
                 "text":"N",
