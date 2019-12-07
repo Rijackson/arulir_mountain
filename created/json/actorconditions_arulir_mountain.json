@@ -45,11 +45,23 @@
             }
         },
         "abilityEffect":{
+            "increaseAttackChance":-20,
             "increaseMaxHP":-15,
             "increaseMaxAP":-3,
-            "increaseDamageResistance":-1,
-            "increaseAttackChance":-20,
-            "increaseBlockChance":-10
+            "increaseBlockChance":-10,
+            "increaseDamageResistance":-1
+        }
+    },
+    {
+        "id":"increased_defense",
+        "iconID":"actorconditions_1:107",
+        "name":"Increased defence",
+        "category":"physical",
+        "isPositive":1,
+        "abilityEffect":{
+            "increaseMaxHP":0,
+            "increaseBlockChance":15,
+            "increaseDamageResistance":2
         }
     }
 ]
