@@ -301,5 +301,24 @@
         "name":"Mermaid",
         "iconID":"monsters_rltiles2:5",
         "monsterClass":"humanoid"
+    },
+    {
+        "id":"lonely_wolf",
+        "name":"Ancient wolf",
+        "iconID":"monsters_dogs:4",
+        "maxHP":35,
+        "maxAP":10,
+        "moveCost":3,
+        "unique":1,
+        "monsterClass":"animal",
+        "attackDamage":{
+            "min":3,
+            "max":6
+        },
+        "spawnGroup":"lonely_wolf",
+        "droplistID":"lonely_wolf",
+        "attackCost":5,
+        "attackChance":110,
+        "blockChance":30
     }
 ]

@@ -2026,5 +2026,14 @@
                 "value":10
             }
         ]
+    },
+    {
+        "id":"lonely_wolf",
+        "switchToNPC":"lonely_wolf",
+        "replies":[
+            {
+                "nextPhraseID":"F"
+            }
+        ]
     }
 ]
