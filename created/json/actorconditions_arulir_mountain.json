@@ -55,7 +55,7 @@
     {
         "id":"increased_defense",
         "iconID":"actorconditions_1:107",
-        "name":"Increased defence",
+        "name":"Increased defense",
         "category":"physical",
         "isPositive":1,
         "abilityEffect":{
