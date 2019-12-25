@@ -211,7 +211,7 @@
    eJzt0bEJACEQRNHBzCKs3CvICq4e2WBwb7l0jOaBiCafVcDMzMwMeMdZq3/P6m7t5bMKG9zznbKb56zzKkWjznzjf9nlCuomG7ffOPy9c5gNeJq+r7AB228wNA==
   </data>
  </layer>
- <layer name="Walkable" width="30" height="26" visible="0">
+ <layer name="Walkable" width="30" height="26">
   <data encoding="base64" compression="zlib">
    eJzNlMENxTAIQzNF918hG/ZUKYoAg2PaRsrhV4VnU/PnNcYU3exR8XZuRoNVo/DqsZ/nXu0JF/22+rPs6kHfqYObmVeH17034xPlOMrXaZ4Zj51+kdd1pxg24njsykzUuWJ43g68wYzmZfVFWjpz/afzhd9KnxM96D+jqjO749EueDoZblWvwitTh7isfub9vc7ryc4n8pvJg3ofFRnuuNGM1nsDPdBSNQ==
   </data>
@@ -290,7 +290,16 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup name="Keys" visible="0"/>
+ <objectgroup name="Keys" visible="0">
+  <object id="33" name="andor:1" type="key" x="448" y="736" width="32" height="32">
+   <properties>
+    <property name="phrase" value="do_nothing_but_leave"/>
+    <property name="requireId" value="andor"/>
+    <property name="requireType" value="questProgress"/>
+    <property name="requireValue" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup name="Replace" visible="0">
   <object id="15" name="replace_mermaid_visible" type="replace" x="224" y="544" width="256" height="256">
    <properties>

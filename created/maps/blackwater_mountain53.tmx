@@ -185,22 +185,22 @@
  </tileset>
  <layer name="Ground" width="30" height="9">
   <data encoding="base64" compression="zlib">
-   eJydksENgCAMRQk39r+ygjZuoDfOuoKDiIEmzU+BwuFFxPAftU3BuTQg+sK+yFm5MkcocGbLuRmzo9fvR5m78ggvnuW91neN3n1+71vhTMzFfFzPQOIpfZZ65H6vXu0MifXI2+uX1UmKV6t5dUa1HhD4LF7rnKz22+KdzcV/Kt9xTpgPm+W5xw==
+   eJydkksOgCAMRE133H/LFbTxBrpjrVfwIGKApGmGWli88AszHWgKy5J+iFTYJjkqZ2YPhabZ81yd2pFwfZy5Krfw1XfbXu8cYdXz+T6Vpql1tb6ej8BilH6ePHLfyovusJgjXyY786gnA1+UebZH0R8w4RyWr7dPZv/b4zuqq99UrnWfNF6dxbnI
   </data>
  </layer>
  <layer name="Objects" width="30" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYMAPZjPhl38ohCm2Vhi3+juSqPy5UPOfiTEwvEDCHkhm7BFEsLmQxNHdNheLW5nEIPQboL1vJRHqnkDd/UMMFUcIYzcbF3gshN1uIaBZa4BizwRRxWHqooH2xABxrDDErl1A9dtIxLvFUM0+BrRLSQxCowNc5p8WI96vMPdvR7P3MJD/F2onLJxh/gSpfQzki0DD9TRSejmMxH6KJR0h2wkzK1EAIV4EFL8hiLATxAapBeFTQLU3gfi3KCRtvRSD2HcEiz2wuMAFYGb9EYXwk3GEF3IauAq05xtQz0+oG2AAlDc60fQ/QXITzA5QmB4WQ7BB4JIQhH1MEDU9w8AcJgRGdstlSVQ792BJH5+AZl9Hcoc8kK2AlraR8zoAKrthFA==
+   eJxjYMAPZjPhl38ohCm2Vhi3+juSqPy5UPOfiTEwvEDCHkhm7BFEsLmQxNHdNheLW5nEIPQboL1vJRHqnkDd/UMMFUfgcTs28FgIu91CQLPWAMWeCaKKw9RFA+2JAeJYYYg/dgHVbyMR7xZDNfsY0C4lMQiNbh8u80+LYY/jw5KYYjDztqPZexjI/wu1ExbO66FmgtQ+BvIPA8PpiBCquYeR0s5TLOkI3Q8gsxIFEOJFQPEbggg7QWyQWpB7TgHxTSD+LQpJWy/FEG5AB7C4wAVgZv0RhfCTceQJ5DRwFWjPN6Cen1A3wAAob3Si6X+C5CaYHSA/HBZDsEHgkhCEfUwQNT3DwBwmBEZ2y2VJVDv3oKVJEPgENPs6kjvkgWwFtLSNnNcBtMJjwQ==
   </data>
  </layer>
  <layer name="Above" width="30" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYCANvBYiUQMaOCzGwHBXErf8TUEIfYVIe57hUXdZDMG+BGVfRVM/lwnBns3EgAFukuHfw1C7HhOp9zKe8CAENksi/HkYyb93JLGHM4swFjOA7txCwK0v0eQPSyLsg4UhLjtBADlsYfZhC298AJs/keOYGIDLTmRx5DQBMh9m3yUku2Bi+PyMC6CnQWRwGSlMYe6Yi8Nt1AToYUooXAHMTiwx
+   eJytksEJwzAMRU03SA4Bzx4yRbqBN7DTQ6A9FQqlS7Qm+fhXyMIp/RcLyfKXHnbumF79wQahMDh38/X62m3n0ujzMO6locRxjy/i/nQq8ajE6w/7ht3r3tibDB6zUUMdewba9+p1zvNnpnP//S5yludT7BJ88QND6cn8s8AUfsy7Rdqe0oPn0VTz5Dz35/fhF8kLuRpnS/IPshIxxRxTZbZ/SjLVuLLeIYYyLg==
   </data>
  </layer>
  <layer name="Walkable" width="30" height="9" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJEGGBtAFqeFPbj4lJiNyy/o9qD7DZdeUsKLGIDNXnLMoCRccMUrMeaT6k9c4YyNjcufxPof3T50ewmZgc8NhPyPyy3USNPE2EcIAwA1SXYp
+   eJzbKMbAsJEGGBtAFqeFPbj4lJiNyy/o9qD7DZdeUsKLGIDNXlzy+MygJFxwxSsx5pPqT1zhjI2Ny5/E+h/dPnR7CZmBzw2E/I/LLdRI08TYRwgDAAe5dvA=
   </data>
  </layer>
  <objectgroup name="Mapevents" visible="0">
