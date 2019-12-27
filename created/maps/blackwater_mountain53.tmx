@@ -183,24 +183,27 @@
  <tileset firstgid="7449" name="map_window_2" tilewidth="32" tileheight="32" tilecount="128" columns="16">
   <image source="../drawable/map_window_2.png" width="512" height="256"/>
  </tileset>
+ <tileset firstgid="7577" name="map_cavewall_1" tilewidth="32" tileheight="32" tilecount="108" columns="18">
+  <image source="../../altered/drawable/map_cavewall_1.png" width="576" height="192"/>
+ </tileset>
  <layer name="Ground" width="30" height="9">
   <data encoding="base64" compression="zlib">
-   eJydkksOgCAMRE133H/LFbTxBrpjrVfwIGKApGmGWli88AszHWgKy5J+iFTYJjkqZ2YPhabZ81yd2pFwfZy5Krfw1XfbXu8cYdXz+T6Vpql1tb6ej8BilH6ePHLfyovusJgjXyY786gnA1+UebZH0R8w4RyWr7dPZv/b4zuqq99UrnWfNF6dxbnI
+   eJydksENgCAQBMn96P9LC3qxA/3x1hYsRAyQXC4LHDwmgoYdVojeuTggUGZf5CxcicNnambLuRmzA+H9ceIuPMKr19Z3re+I3n5+71uomTpX5+vxDCye0mfpY+naWsNijLxM/c6698jJwIs6r95RdAZMuEfPa70nq+dt8c7m6n8q54Gw4wOeDbnI
   </data>
  </layer>
  <layer name="Objects" width="30" height="9">
   <data encoding="base64" compression="zlib">
-   eJxjYMAPZjPhl38ohCm2Vhi3+juSqPy5UPOfiTEwvEDCHkhm7BFEsLmQxNHdNheLW5nEIPQboL1vJRHqnkDd/UMMFUfgcTs28FgIu91CQLPWAMWeCaKKw9RFA+2JAeJYYYg/dgHVbyMR7xZDNfsY0C4lMQiNbh8u80+LYY/jw5KYYjDztqPZexjI/wu1ExbO66FmgtQ+BvIPA8PpiBCquYeR0s5TLOkI3Q8gsxIFEOJFQPEbggg7QWyQWpB7TgHxTSD+LQpJWy/FEG5AB7C4wAVgZv0RhfCTceQJ5DRwFWjPN6Cen1A3wAAob3Si6X+C5CaYHSA/HBZDsEHgkhCEfUwQNT3DwBwmBEZ2y2VJVDv3oKVJEPgENPs6kjvkgWwFtLSNnNcBtMJjwQ==
+   eJxjYMAPZjPhl38ohCm2Vhi3+juSqPy5UPOfiTEwvEDCHkhm7BFEsLmQxNHdBjLLFc1uJjEI/QZo71tJhLonUHf/EEPFEXjcjg08FkL1BwwIAc1aAxR7JogqDlMXDbQnBohjhSH+2AVUv41EvFsM1exjQLuUxCA0un24zD8thj2Oz0hiisHM245m72Eg/y/UTlg4r4eaCVL7GMg/DAynI0B8GMncg0hp5ymWdITuB5BZiQII8SKg+A1BhJ0gNkgtyD2ngPgmEP8WhaStl2IIN6ADWFzgAjCz/ohC+Mk48gRyGrgKtOcbUM9PqBtgAJQ3OtH0P0FyE8wOkB8OiyHYIHBJCMI+JoianmFgDhMCI7vlsiSqnaD8JA80SwHJ3k9A9nUkPrI8zCzkvA4ACAlkgw==
   </data>
  </layer>
  <layer name="Above" width="30" height="9">
   <data encoding="base64" compression="zlib">
-   eJytksEJwzAMRU03SA4Bzx4yRbqBN7DTQ6A9FQqlS7Qm+fhXyMIp/RcLyfKXHnbumF79wQahMDh38/X62m3n0ujzMO6locRxjy/i/nQq8ajE6w/7ht3r3tibDB6zUUMdewba9+p1zvNnpnP//S5yludT7BJ88QND6cn8s8AUfsy7Rdqe0oPn0VTz5Dz35/fhF8kLuRpnS/IPshIxxRxTZbZ/SjLVuLLeIYYyLg==
+   eJydUEsKwjAQHXoDKxRyo96x9BAal+7mBq0uCroSBPESNjTDDMNkaHybTD4v7wNQh29bSVDADuAZyvfLYVtvO3Xezru543nK8129Hxuehzz3R56XP/Ji1nrt5M5OH1fnLiEGzoki7yPYPcfV06XdeITTuj8Lr9HgfVQWDKxHHWpN2X8CdUoehgaqYOXUGtKPhZKmPJf89D/pTUKLzko9e7D6lXrkgXyMBW+1QEdXd2r1KvEDemIzTw==
   </data>
  </layer>
  <layer name="Walkable" width="30" height="9" visible="0">
   <data encoding="base64" compression="zlib">
-   eJzbKMbAsJEGGBtAFqeFPbj4lJiNyy/o9qD7DZdeUsKLGIDNXlzy+MygJFxwxSsx5pPqT1zhjI2Ny5/E+h/dPnR7CZmBzw2E/I/LLdRI08TYRwgDAAe5dvA=
+   eJzbKMbAsJEGGBtAFqeFXej2wviUmIvLL+j2YHMHNr2khBcxAJ//cYkR6yZiwwVXvBJjPqn+xBXO2Ni4/Ems/9HtQ7eXkBn43EDI/7jcQmmaxpd3SMEAhvh60w==
   </data>
  </layer>
  <objectgroup name="Mapevents" visible="0">
@@ -236,7 +239,7 @@
   </object>
   <object id="10" name="gornaud_2_4" type="spawn" x="224" y="96" width="96" height="64">
    <properties>
-    <property name="quantity" value="3"/>
+    <property name="quantity" value="1"/>
     <property name="spawngroup" value="gornaud_2"/>
    </properties>
   </object>

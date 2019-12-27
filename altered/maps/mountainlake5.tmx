@@ -125,7 +125,7 @@
  </tileset>
  <layer name="Ground" width="29" height="20">
   <data encoding="base64" compression="zlib">
-   eJy9lMENgzAMRUMOTMEKZIWUQ3uHrsCqbMEIHaJE2Kpr2fBpEYcnBJi8xCR/rkOYAaY/aWMIiUB8ZzjTRc4mrrCrNZxc6zl5jMKeLy81N8Jy6nrLKf8H00R/Hv1yPxCZ6nkeqDMbziTWUujIe6/W6xhXeqrleaDOPn73ix2D4EnjFafXp9Fxbnm1YxRwneWUfTrinGvbobGc3Ke0sf/QM4Q62dte7OQen+2U+9ZbK5InR3zId0fzDHU+Kp9fchQZy5sXkpvIetFepJ2zojNd56p2eu94bTIvPYeVrV6+y+clD1/1ByunUQdCR3konTJ/zoZ9llN732arbfc=
+   eJy9lMENgzAMRUMOTMEKZIWUQ3uHrsCqbMEIHaJE2Kpr2fBpEYcnBJi82MCf6xBmgOlP2hhCIhDfGc50kbOJK+xqDSfXek5eo7Dny0vNjbCcut5yyvfBNNHfR7+cD0Smet4H6syGM4leCh1579V6HONKTz3yPlBnH7/nxY5B8KT1itOb0+g4t7zaMQq4znLKOR1xzrXt0FhOnlPa+P7Qfwh1sre92MkzPtspv1uvVyRPjviQ547mGep8VD6/5CiylrcvJDeRftFZpJ1/RWe6zlXt9O5xbzIvPYeVrV6+y+slD1/1ByunUQdCR3konTJ/zoZ9llN732BHbfY=
   </data>
  </layer>
  <layer name="Objects" width="29" height="20">
@@ -138,7 +138,7 @@
    eJxjYKAMvBNgYHgrQLy4NBOFFgLBcSzm4gLk2neBBDuIAYq8DAxKvNjlqBEmwwmkQ8Nem4RwectDmh3haPGbJoBqN6n2IwNc+tKQzNZBUoPuFlyAUJpEt1cHj/uJtZOaAN1OcsOXFJCGxZ/o9oLKqXd0DA/kcpHW9oL8iqt8HggAsve4ACLMiQl75PLekxGYjtAwtvITV/2DDrCZF8aIXw+l5bUsmn5k80ByaTjqCVqC9EFQHgwGOwEPKCJE
   </data>
  </layer>
- <layer name="Walkable" width="29" height="20">
+ <layer name="Walkable" width="29" height="20" visible="0">
   <data encoding="base64" compression="zlib">
    eJxzFWBgcCUCwwAxaqmlHxmQaye57kQH6Oahi1PqVlLcQchOaroHlxnY7KRGOiHVTmqHOSl2Usuv+OIeF5/aduJLO7TyJ6FwpZaduMyhtp3E6EdXQ4n9xOrDJocPkBNPpLiFEkBJeiAnTVLTvlE8+DEAt+iUbA==
   </data>
@@ -181,7 +181,7 @@
   </object>
   <object id="4" name="trapexit" type="mapchange" x="736" y="320" width="32" height="32"/>
  </objectgroup>
- <objectgroup name="Spawn">
+ <objectgroup name="Spawn" visible="0">
   <object id="5" name="arulir_1" type="spawn" x="672" y="192" width="32" height="64">
    <properties>
     <property name="quantity" value="1"/>

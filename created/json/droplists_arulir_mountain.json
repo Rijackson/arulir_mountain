@@ -124,6 +124,71 @@
         ]
     },
     {
+        "id":"arulir_gem1",
+        "items":[
+            {
+                "itemID":"gem3",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            }
+        ]
+    },
+    {
+        "id":"arulir_gem2",
+        "items":[
+            {
+                "itemID":"gem3",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            }
+        ]
+    },
+    {
+        "id":"arulir_gem3",
+        "items":[
+            {
+                "itemID":"gem4",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            }
+        ]
+    },
+    {
+        "id":"arulir_gem4",
+        "items":[
+            {
+                "itemID":"gem3",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            }
+        ]
+    },
+    {
+        "id":"arulir_gem5",
+        "items":[
+            {
+                "itemID":"gem5",
+                "chance":"100",
+                "quantity":{
+                    "min":1,
+                    "max":2
+                }
+            }
+        ]
+    },
+    {
         "id":"arulir_gornaud",
         "items":[
             {

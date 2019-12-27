@@ -1352,13 +1352,6 @@
                 "text":"Ah. Interesting. Keep having fun with it. Bye.",
                 "nextPhraseID":"X"
             }
-        ],
-        "rewards":[
-            {
-                "rewardType":"questProgress",
-                "rewardID":"arulircave_non_display",
-                "value":10
-            }
         ]
     },
     {
@@ -1391,7 +1384,14 @@
             },
             {
                 "text":"I have heard this before.",
-                "nextPhraseID":"bernhar_32"
+                "nextPhraseID":"bernhar_32",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"arulircave_non_display",
+                        "value":10
+                    }
+                ]
             }
         ]
     },
@@ -1412,6 +1412,13 @@
             {
                 "text":"N",
                 "nextPhraseID":"bernhar_50"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"arulircave_non_display",
+                "value":10
             }
         ]
     },
