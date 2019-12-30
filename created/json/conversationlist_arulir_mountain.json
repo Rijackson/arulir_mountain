@@ -1096,7 +1096,7 @@
         "message":"When the dust clears a bit you can see a small corridor.",
         "replies":[
             {
-                "text":"Nice, a secret room.",
+                "text":"Nice, a secret room!",
                 "nextPhraseID":"X"
             }
         ]
@@ -1702,7 +1702,7 @@
     },
     {
         "id":"tjure_20",
-        "message":"Crying and sobbing, the mermaid called after me. Finally, she screamed at me that I would never find peace, and that I'd rather not approach water ever again!",
+        "message":"Crying and sobbing, the mermaid called after me. Finally, she screamed at me that I would never find peace, and that I would never want to approach water again!",
         "replies":[
             {
                 "text":"N",
